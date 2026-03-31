@@ -37,5 +37,3 @@
 - 需要 `GeoLite2-Country.mmdb` 文件（可从 [MaxMind 官网](https://dev.maxmind.com/geoip/geolite2-free-geolocation-data) 下载免费 GeoLite2 Country 版）
 - 输出节点已统一重命名，便于在客户端中识别和管理
 - 本项目仅为解析聚合工具，**不提供任何订阅源内容**
-
----
