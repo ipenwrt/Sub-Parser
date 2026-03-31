@@ -14,46 +14,56 @@ from urllib.parse import urlparse, quote, unquote
 import geoip2.database
 
 # --- 基础配置 ---
-GEOIP_DB = "GeoLite2-Country.mmdb"  # 确认使用你的国家库文件名
+# INPUT_FILE = "filter_subs.txt"   # 已移除本地文件，改用远程加载
+GEOIP_DB = "GeoLite2-Country.mmdb"
 OUTPUT_TXT = "sub_parser.txt"
 OUTPUT_B64 = "sub_parser_base64.txt"
 OUTPUT_CSV = "sub_parser.csv"
 OUTPUT_YAML = "sub_parser.yaml"
 
-MAX_CONCURRENT_TASKS = 80 
+MAX_CONCURRENT_TASKS = 80
 MAX_RETRIES = 1
+
+# 远程订阅列表地址
+FILTER_URL = "https://raw.githubusercontent.com/qjlxg/x.sub/refs/heads/main/filter_subs.txt"
 
 # --- 工具函数 ---
 def decode_base64(data):
-    if not data: return ""
+    if not data: 
+        return ""
     try:
         data = data.replace("-", "+").replace("_", "/")
         clean_data = re.sub(r'[^A-Za-z0-9+/=]', '', data.strip())
         missing_padding = len(clean_data) % 4
-        if missing_padding: clean_data += '=' * (4 - missing_padding)
+        if missing_padding: 
+            clean_data += '=' * (4 - missing_padding)
         return base64.b64decode(clean_data).decode('utf-8', errors='ignore')
-    except: return ""
+    except: 
+        return ""
 
 def encode_base64(data):
-    try: return base64.b64encode(data.encode('utf-8')).decode('utf-8')
-    except: return ""
+    try: 
+        return base64.b64encode(data.encode('utf-8')).decode('utf-8')
+    except: 
+        return ""
 
 def get_md5_short(text):
     return hashlib.md5(text.encode()).hexdigest()[:4]
 
 def get_geo_info(host, reader):
     """适配 GeoLite2-Country.mmdb 的识别逻辑"""
-    if not host or not reader: return "🌐", "未知地区"
+    if not host or not reader: 
+        return "🌐", "未知地区"
     ip = host
     if not re.match(r"^\d{1,3}(\.\d{1,3}){3}$", host):
-        try: ip = socket.gethostbyname(host)
-        except: return "🌐", "未知地区"
+        try: 
+            ip = socket.gethostbyname(host)
+        except: 
+            return "🌐", "未知地区"
     try:
-        # 国家库使用 country 方法
         res = reader.country(ip)
         code = res.country.iso_code
         flag = "".join(chr(ord(c) + 127397) for c in code.upper()) if code else "🌐"
-        # 获取中文国家名
         country_name = res.country.names.get('zh-CN') or res.country.name or "未知国家"
         return flag, country_name
     except:
@@ -66,7 +76,8 @@ def get_node_details(line, protocol):
             return {"server": v.get('add'), "port": int(v.get('port', 443)), "uuid": v.get('id'), "tls": v.get('tls') == "tls"}
         u = urlparse(line)
         return {"server": u.hostname, "port": int(u.port or 443)}
-    except: return None
+    except: 
+        return None
 
 def parse_nodes(content, reader):
     if "://" not in content[:50] and len(content) > 20:
@@ -76,7 +87,8 @@ def parse_nodes(content, reader):
     found_links = re.findall(pattern, content, re.IGNORECASE)
     nodes = []
     for link in found_links:
-        if link.lower().startswith(('http://', 'https://')): continue
+        if link.lower().startswith(('http://', 'https://')): 
+            continue
         protocol = link.split("://")[0].lower()
         try:
             if protocol == 'vmess':
@@ -85,7 +97,8 @@ def parse_nodes(content, reader):
                 host = urlparse(link).hostname or re.search(r'@([^:/?#\s]+)', link).group(1).split(':')[0]
             flag, country = get_geo_info(host, reader)
             nodes.append({"protocol": protocol, "flag": flag, "country": country, "line": link})
-        except: continue
+        except: 
+            continue
     return nodes
 
 async def fetch_with_retry(session, url, reader, semaphore):
@@ -93,19 +106,21 @@ async def fetch_with_retry(session, url, reader, semaphore):
         for _ in range(MAX_RETRIES + 1):
             try:
                 async with session.get(url, timeout=30, ssl=False) as res:
-                    if res.status != 200: return url, [], 0
+                    if res.status != 200: 
+                        return url, [], 0
                     text = await res.text()
                     nodes = parse_nodes(text, reader)
                     if nodes:
                         print(f"[+] 成功 ({len(nodes)} 节点): {url}")
                         return url, nodes, len(nodes)
-            except: pass
+            except: 
+                pass
         return url, [], 0
 
 async def main():
-    FILTER_URL = "https://raw.githubusercontent.com/qjlxg/x.sub/refs/heads/main/filter_subs.txt"
-    all_urls = []
     print(f"正在从远程加载订阅列表: {FILTER_URL}")
+    all_urls = []
+    
     try:
         async with aiohttp.ClientSession(headers={'User-Agent': 'v2rayN/6.23'}) as temp_session:
             async with temp_session.get(FILTER_URL, timeout=30, ssl=False) as resp:
@@ -113,7 +128,6 @@ async def main():
                     print(f"❌ 远程加载失败，状态码: {resp.status}")
                     return
                 text = await resp.text()
-                # 提取所有 http/https 链接（保持原有正则）
                 all_urls = re.findall(r'https?://[^\s<>\"\'\u4e00-\u9fa5]+', text)
                 print(f"✅ 成功加载 {len(all_urls)} 个订阅链接")
     except Exception as e:
@@ -121,9 +135,13 @@ async def main():
         return
 
     unique_urls = list(dict.fromkeys(all_urls))
-    if not unique_urls: return
+    if not unique_urls:
+        print("没有找到任何订阅链接")
+        return
+
     if not os.path.exists(GEOIP_DB):
-        print(f"缺失 {GEOIP_DB} 库文件"); return
+        print(f"缺失 {GEOIP_DB} 库文件")
+        return
 
     print(f"--- 正在处理 {len(unique_urls)} 个源 ---")
     semaphore = asyncio.Semaphore(MAX_CONCURRENT_TASKS)
@@ -133,10 +151,12 @@ async def main():
         async with aiohttp.ClientSession(headers={'User-Agent': 'v2rayN/6.23'}, connector=connector) as session:
             tasks = [fetch_with_retry(session, url, reader, semaphore) for url in unique_urls]
             results = await asyncio.gather(*tasks)
+            
             raw_node_objs = []
             stats = []
             for url, nodes, count in results:
-                raw_node_objs.extend(nodes); stats.append([url, count])
+                raw_node_objs.extend(nodes)
+                stats.append([url, count])
 
     # --- MD5 命名与 4 种文件输出 ---
     final_links = []
@@ -146,11 +166,11 @@ async def main():
     for obj in raw_node_objs:
         line, protocol, flag, country = obj["line"], obj["protocol"], obj["flag"], obj["country"]
         base_link = line.split('#')[0] if protocol != 'vmess' else line
-        if base_link in seen_lines: continue
+        if base_link in seen_lines: 
+            continue
         seen_lines.add(base_link)
 
         short_id = get_md5_short(base_link)
-        # 格式：[国旗] [国家名] 订阅节点聚合器_[MD5]
         new_name = f"{flag} {country} 订阅节点聚合器_{short_id}"
         
         try:
@@ -170,23 +190,47 @@ async def main():
             if d:
                 p_type = "trojan" if protocol == 'anytls' else protocol
                 proxy_item = f"  - {{ name: \"{new_name}\", type: {p_type}, server: {d['server']}, port: {d['port']}"
-                if protocol == 'vmess': proxy_item += f", uuid: {d['uuid']}, cipher: auto, tls: {str(d['tls']).lower()}"
+                if protocol == 'vmess':
+                    proxy_item += f", uuid: {d['uuid']}, cipher: auto, tls: {str(d['tls']).lower()}"
                 proxy_item += ", udp: true }"
                 yaml_proxies.append(proxy_item)
-        except: continue
+        except: 
+            continue
 
     # --- 写入 4 个文件 ---
     now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     
     # 1. 文本明文
-    with open(OUTPUT_TXT, "w", encoding="utf-8") as f: f.write("\n".join(final_links))
+    with open(OUTPUT_TXT, "w", encoding="utf-8") as f: 
+        f.write("\n".join(final_links))
     
     # 2. Base64 订阅
-    with open(OUTPUT_B64, "w", encoding="utf-8") as f: f.write(encode_base64("\n".join(final_links)))
+    with open(OUTPUT_B64, "w", encoding="utf-8") as f: 
+        f.write(encode_base64("\n".join(final_links)))
     
-    # 3. 统计报表
+    # 3. 统计报表（改进版：成功在前，失败在后）
+    success_stats = []
+    failed_stats = []
+    for url, count in stats:
+        if count >= 1:
+            success_stats.append([url, count])
+        else:
+            failed_stats.append([url, count])
+
     with open(OUTPUT_CSV, "w", encoding="utf-8", newline="") as f:
-        writer = csv.writer(f); writer.writerow(["订阅链接", "节点数量"]); writer.writerows(stats)
+        writer = csv.writer(f)
+        writer.writerow(["订阅链接", "节点数量"])
+        
+        # 先写入成功的
+        if success_stats:
+            writer.writerows(success_stats)
+        
+        # 再写入失败的（放在最下方）
+        if failed_stats:
+            writer.writerow(["--- 以下是节点数量为 0 的订阅源 ---", ""])
+            writer.writerows(failed_stats)
+
+    print(f"--- CSV 生成完成！总源: {len(stats)} | 成功: {len(success_stats)} | 失败: {len(failed_stats)} ---")
 
     # 4. Clash YAML
     yaml_header = f"""# 订阅节点聚合器
@@ -207,5 +251,6 @@ proxies:
     print(f"--- 任务完成！已生成 4 个文件，总计节点: {len(final_links)} ---")
 
 if __name__ == "__main__":
-    if os.name == 'nt': asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+    if os.name == 'nt': 
+        asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     asyncio.run(main())
