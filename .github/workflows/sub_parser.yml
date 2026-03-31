@@ -31,6 +31,8 @@ jobs:
           pip install aiohttp geoip2 pyyaml
 
       - name: Run Sub Parser
+        env:
+          FILTER_URL: ${{ secrets.FILTER_URL }}
         run: python sub_parser.py
 
       - name: Commit and Push
