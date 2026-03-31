@@ -30,7 +30,6 @@
 - `GeoLite2-Country.mmdb`：GeoIP 数据库（用于地区识别）。
 - `.github/workflows/`：GitHub Actions 工作流（自动化触发）。
 
-
 ---
 
 ## 注意事项
@@ -46,6 +45,3 @@
 MIT License
 
 ---
-
-欢迎 Star / Fork！  
-有问题、建议或需要新增协议支持，欢迎提交 Issue 或 Pull Request。
