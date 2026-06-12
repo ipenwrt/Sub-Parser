@@ -1,6 +1,6 @@
 # 订阅节点聚合器
-# Updated: 2026-06-11 21:55:32
-# Total: 197
+# Updated: 2026-06-12 02:54:18
+# Total: 187
 
 port: 7890
 mode: Rule
@@ -9,8 +9,8 @@ dns:
   nameserver: [119.29.29.29, 223.5.5.5]
 
 proxies:
-  - { name: "🇭🇰 香港 订阅节点聚合器_2701", type: trojan, server: node2-vpn.hrzy.me, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_db20", type: trojan, server: node1-vpn.hrzy.me, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_22cd", type: trojan, server: node2-vpn.hrzy.me, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_2bbc", type: trojan, server: node1-vpn.hrzy.me, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_2ee2", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: c85a285f-b5bf-4915-94d3-0f72a137343e, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_cfd4", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: c85a285f-b5bf-4915-94d3-0f72a137343e, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_962a", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: c85a285f-b5bf-4915-94d3-0f72a137343e, cipher: auto, tls: true, udp: true }
@@ -30,18 +30,8 @@ proxies:
   - { name: "🌐 未知国家 订阅节点聚合器_aa8e", type: vmess, server: zzrt.uhomdex.shop, port: 8443, uuid: 2aa00168-6eae-4b08-bd7a-b72af61ce0d7, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_4df6", type: vmess, server: hwtqcp.uhomdex.shop, port: 8443, uuid: 2aa00168-6eae-4b08-bd7a-b72af61ce0d7, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_8bfe", type: vmess, server: qvxbtx.uhomdex.shop, port: 443, uuid: 2aa00168-6eae-4b08-bd7a-b72af61ce0d7, cipher: auto, tls: true, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_b7d9", type: vless, server: 175hgffc.needss.top, port: 11254, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_a5cc", type: vless, server: 175hgffc.needss.top, port: 12509, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_22c7", type: vless, server: 175hgffc.needss.top, port: 12558, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_83c0", type: vless, server: hdhss58a.needss.top, port: 15442, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_c262", type: vless, server: 175hgffc.needss.top, port: 20011, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_a62a", type: vless, server: hdhss58a.needss.top, port: 20013, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_50ea", type: vless, server: hdhss58a.needss.top, port: 20014, udp: true }
-  - { name: "🇲🇾 马来西亚 订阅节点聚合器_144e", type: vless, server: 175hgffc.needss.top, port: 20015, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_57cf", type: vless, server: hdhss58a.needss.top, port: 20017, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_7fea", type: vmess, server: rb2.needss.top, port: 12001, uuid: 61d62362-ae72-4973-8fc4-5a32f16da6a3, cipher: auto, tls: false, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_61c9", type: trojan, server: node2-vpn.hrzy.me, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_9ab5", type: trojan, server: node1-vpn.hrzy.me, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_088d", type: trojan, server: node1-vpn.hrzy.me, port: 443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_9e00", type: trojan, server: cdnfire.xiaomispeed.com, port: 443, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_08aa", type: trojan, server: cdnfire.xiaomispeed.com, port: 21101, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_3135", type: trojan, server: cdnfire.xiaomispeed.com, port: 21102, udp: true }
@@ -204,5 +194,5 @@ proxies:
   - { name: "🇹🇼 台湾 订阅节点聚合器_7c92", type: trojan, server: cdnfire.xiaomispeed.com, port: 24423, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_9151", type: trojan, server: cdnfire.xiaomispeed.com, port: 25501, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_f1f3", type: trojan, server: cdnfire.xiaomispeed.com, port: 25502, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_b185", type: trojan, server: node2-vpn.hrzy.me, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_530b", type: trojan, server: node1-vpn.hrzy.me, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_f281", type: trojan, server: node2-vpn.hrzy.me, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_b2c6", type: trojan, server: node1-vpn.hrzy.me, port: 443, udp: true }
