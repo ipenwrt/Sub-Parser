@@ -1,6 +1,6 @@
 # 订阅节点聚合器
-# Updated: 2026-06-25 21:25:59
-# Total: 43
+# Updated: 2026-06-26 02:44:20
+# Total: 45
 
 port: 7890
 mode: Rule
@@ -9,12 +9,14 @@ dns:
   nameserver: [119.29.29.29, 223.5.5.5]
 
 proxies:
-  - { name: "🇭🇰 香港 订阅节点聚合器_8994", type: trojan, server: node2-vpn.hrzy.me, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_819f", type: trojan, server: node1-vpn.hrzy.me, port: 443, udp: true }
-  - { name: "🇮🇳 印度 订阅节点聚合器_74c1", type: ss, server: 103.111.114.80, port: 28061, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_3024", type: trojan, server: node2-vpn.hrzy.me, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_29e4", type: trojan, server: node1-vpn.hrzy.me, port: 443, udp: true }
+  - { name: "🇦🇺 澳大利亚 订阅节点聚合器_df8c", type: ss, server: 104.156.233.234, port: 27116, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_2135", type: vmess, server: 69.84.182.49, port: 80, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, cipher: auto, tls: false, udp: true }
-  - { name: "🇬🇧 英国 订阅节点聚合器_6dba", type: vless, server: 31.76.38.18, port: 7443, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_bbd6", type: vless, server: tw3.miyazono-kaori.com, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_4798", type: vmess, server: 47.244.120.197, port: 36703, uuid: 45b83519-9c4f-4052-a11b-02e017b636d4, cipher: auto, tls: false, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_eae8", type: vless, server: 104.16.72.70, port: 80, udp: true }
+  - { name: "🇬🇧 英国 订阅节点聚合器_38c3", type: vless, server: 31.76.38.18, port: 7443, udp: true }
+  - { name: "🇮🇷 伊朗 订阅节点聚合器_e568", type: vless, server: sv2.azparadox.ir, port: 8880, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_8a0d", type: trojan, server: empty.node, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_a7d0", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 8a6d5964-0f7c-40e7-b25f-14e1340965f4, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_bff7", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 8a6d5964-0f7c-40e7-b25f-14e1340965f4, cipher: auto, tls: true, udp: true }
@@ -34,12 +36,12 @@ proxies:
   - { name: "🌐 未知国家 订阅节点聚合器_c91c", type: vmess, server: zzrt.uhomdex.shop, port: 8443, uuid: c21a64ab-b068-4362-8219-6839a69b15bc, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_ee41", type: vmess, server: hwtqcp.uhomdex.shop, port: 8443, uuid: c21a64ab-b068-4362-8219-6839a69b15bc, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_ba78", type: vmess, server: qvxbtx.uhomdex.shop, port: 443, uuid: c21a64ab-b068-4362-8219-6839a69b15bc, cipher: auto, tls: true, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_3bcf", type: trojan, server: node2-vpn.hrzy.me, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_35ea", type: trojan, server: node2-vpn.hrzy.me, port: 443, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_06e1", type: trojan, server: node1-vpn.hrzy.me, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_3594", type: ss, server: 1.1.1.1, port: 443, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_18b3", type: trojan, server: empty.node, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_9f4d", type: trojan, server: node2-vpn.hrzy.me, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_59d5", type: trojan, server: node1-vpn.hrzy.me, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_3d62", type: trojan, server: node2-vpn.hrzy.me, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_8c11", type: trojan, server: node1-vpn.hrzy.me, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_1dd8", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 81b15393-e7e3-46ba-afb1-ac2d74137d79, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_d925", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 81b15393-e7e3-46ba-afb1-ac2d74137d79, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_bc62", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 81b15393-e7e3-46ba-afb1-ac2d74137d79, cipher: auto, tls: true, udp: true }
