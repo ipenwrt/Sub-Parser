@@ -1,6 +1,6 @@
 # 订阅节点聚合器
-# Updated: 2026-07-03 02:22:12
-# Total: 65
+# Updated: 2026-07-03 06:56:29
+# Total: 60
 
 port: 7890
 mode: Rule
@@ -9,68 +9,63 @@ dns:
   nameserver: [119.29.29.29, 223.5.5.5]
 
 proxies:
-  - { name: "🇮🇹 意大利 订阅节点聚合器_14d7", type: ss, server: 103.241.66.76, port: 14605, udp: true }
-  - { name: "🇧🇷 巴西 订阅节点聚合器_7dfe", type: ss, server: 38.180.221.145, port: 17283, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_000b", type: ss, server: 38.54.80.160, port: 16292, udp: true }
-  - { name: "🇮🇱 以色列 订阅节点聚合器_86c1", type: ss, server: 103.240.147.113, port: 14605, udp: true }
+  - { name: "🇸🇨 塞舌尔 订阅节点聚合器_f50f", type: vless, server: us.wulan.sbs, port: 45623, udp: true }
+  - { name: "🇸🇨 塞舌尔 订阅节点聚合器_4dae", type: vless, server: us.wulan.sbs, port: 45783, udp: true }
+  - { name: "🇸🇨 塞舌尔 订阅节点聚合器_22ea", type: vless, server: us.wulan.sbs, port: 47223, udp: true }
+  - { name: "🇸🇨 塞舌尔 订阅节点聚合器_7a44", type: vless, server: us.wulan.sbs, port: 56623, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_a0a8", type: vless, server: hk.wulan.sbs, port: 13579, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_60eb", type: vless, server: hk.wulan.sbs, port: 24689, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_6086", type: vless, server: mgg.vpnvvv.top, port: 46754, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_9131", type: vless, server: mgg.vpnvvv.top, port: 45783, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_f2f1", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 5f9bee9b-23cb-4dca-8b74-11d845482b23, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_7605", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 5f9bee9b-23cb-4dca-8b74-11d845482b23, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_4823", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 5f9bee9b-23cb-4dca-8b74-11d845482b23, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_fdf3", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 5f9bee9b-23cb-4dca-8b74-11d845482b23, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_1f88", type: vmess, server: snhkg.cmvvb.online, port: 8080, uuid: 5f9bee9b-23cb-4dca-8b74-11d845482b23, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_6ce1", type: vmess, server: cxsfvn.uhomdex.shop, port: 443, uuid: 5f9bee9b-23cb-4dca-8b74-11d845482b23, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_b92f", type: vmess, server: zzrt.uhomdex.shop, port: 8443, uuid: 5f9bee9b-23cb-4dca-8b74-11d845482b23, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_4727", type: vmess, server: hwtqcp.uhomdex.shop, port: 8443, uuid: 5f9bee9b-23cb-4dca-8b74-11d845482b23, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_453e", type: vmess, server: qvxbtx.uhomdex.shop, port: 443, uuid: 5f9bee9b-23cb-4dca-8b74-11d845482b23, cipher: auto, tls: true, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_c810", type: ss, server: 167.179.99.83, port: 8445, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_8cd9", type: vmess, server: 167.179.99.83, port: 8443, uuid: c0ebd436-b34e-43d9-abba-5cff52286429, cipher: auto, tls: false, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_5336", type: vmess, server: 144.202.98.98, port: 8444, uuid: c0ebd436-b34e-43d9-abba-5cff52286429, cipher: auto, tls: false, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_2b27", type: trojan, server: empty.node, port: 443, udp: true }
   - { name: "🇮🇹 意大利 订阅节点聚合器_3a13", type: ss, server: 193.168.175.56, port: 14605, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_6671", type: ss, server: 45.32.122.179, port: 23027, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_000b", type: ss, server: 38.54.80.160, port: 16292, udp: true }
+  - { name: "🇧🇷 巴西 订阅节点聚合器_d28a", type: ss, server: 38.180.221.143, port: 17283, udp: true }
+  - { name: "🇮🇳 印度 订阅节点聚合器_74c1", type: ss, server: 103.111.114.80, port: 28061, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_f2ad", type: vmess, server: ct.090227.xyz, port: 80, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, cipher: auto, tls: false, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_2135", type: vmess, server: 69.84.182.49, port: 80, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, cipher: auto, tls: false, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_b451", type: vmess, server: yg2.ygkkk.dpdns.org, port: 80, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, cipher: auto, tls: false, udp: true }
-  - { name: "🇷🇺 俄罗斯联邦 订阅节点聚合器_ab7b", type: vless, server: 158.160.191.91, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_47ea", type: vless, server: support.zoom.us, port: 80, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_3cce", type: vmess, server: planb.mojcn.com, port: 16648, uuid: c56b770e-296a-4682-9593-98197cdae8ba, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_bf45", type: vmess, server: planb.mojcn.com, port: 16632, uuid: c56b770e-296a-4682-9593-98197cdae8ba, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_f086", type: vmess, server: m.cnmjin.net, port: 16622, uuid: c56b770e-296a-4682-9593-98197cdae8ba, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_f6d3", type: vmess, server: m.cnmjin.net, port: 16632, uuid: c56b770e-296a-4682-9593-98197cdae8ba, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_a006", type: vmess, server: planb.mojcn.com, port: 16644, uuid: c56b770e-296a-4682-9593-98197cdae8ba, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_2346", type: vmess, server: m.cnmjin.net, port: 16644, uuid: c56b770e-296a-4682-9593-98197cdae8ba, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_748a", type: vmess, server: m.cnmjin.net, port: 16645, uuid: c56b770e-296a-4682-9593-98197cdae8ba, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_67cb", type: vmess, server: planb.mojcn.com, port: 16616, uuid: c56b770e-296a-4682-9593-98197cdae8ba, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_cb21", type: vmess, server: planb.mojcn.com, port: 16641, uuid: c56b770e-296a-4682-9593-98197cdae8ba, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_c732", type: vmess, server: m.cnmjin.net, port: 16641, uuid: c56b770e-296a-4682-9593-98197cdae8ba, cipher: auto, tls: false, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_5996", type: vmess, server: m.cnmjin.net, port: 16616, uuid: c56b770e-296a-4682-9593-98197cdae8ba, cipher: auto, tls: false, udp: true }
   - { name: "🇹🇷 土耳其 订阅节点聚合器_4eb8", type: vless, server: 45.195.137.40, port: 8443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_3de1", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 2c69402f-f56b-4ff4-8c20-5c178c2fde5f, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_665c", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 2c69402f-f56b-4ff4-8c20-5c178c2fde5f, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_11fb", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 2c69402f-f56b-4ff4-8c20-5c178c2fde5f, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_1705", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 2c69402f-f56b-4ff4-8c20-5c178c2fde5f, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_85fb", type: vmess, server: snhkg.cmvvb.online, port: 8080, uuid: 2c69402f-f56b-4ff4-8c20-5c178c2fde5f, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_e929", type: vmess, server: cxsfvn.uhomdex.shop, port: 443, uuid: 2c69402f-f56b-4ff4-8c20-5c178c2fde5f, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_1cb4", type: vmess, server: zzrt.uhomdex.shop, port: 8443, uuid: 2c69402f-f56b-4ff4-8c20-5c178c2fde5f, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_904c", type: vmess, server: hwtqcp.uhomdex.shop, port: 8443, uuid: 2c69402f-f56b-4ff4-8c20-5c178c2fde5f, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_2787", type: vmess, server: qvxbtx.uhomdex.shop, port: 443, uuid: 2c69402f-f56b-4ff4-8c20-5c178c2fde5f, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_302c", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 11137163-2750-43fd-a716-20fff772c5f8, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_1890", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 11137163-2750-43fd-a716-20fff772c5f8, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_9894", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 11137163-2750-43fd-a716-20fff772c5f8, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_2c2a", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 11137163-2750-43fd-a716-20fff772c5f8, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_2cdd", type: vmess, server: snhkg.cmvvb.online, port: 8080, uuid: 11137163-2750-43fd-a716-20fff772c5f8, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_4856", type: vmess, server: cxsfvn.uhomdex.shop, port: 443, uuid: 11137163-2750-43fd-a716-20fff772c5f8, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_65cd", type: vmess, server: zzrt.uhomdex.shop, port: 8443, uuid: 11137163-2750-43fd-a716-20fff772c5f8, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_b0cb", type: vmess, server: hwtqcp.uhomdex.shop, port: 8443, uuid: 11137163-2750-43fd-a716-20fff772c5f8, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_aa12", type: vmess, server: qvxbtx.uhomdex.shop, port: 443, uuid: 11137163-2750-43fd-a716-20fff772c5f8, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_55de", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: bf883b99-2b86-418d-a0f1-35ec7882fd75, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_fe6b", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: bf883b99-2b86-418d-a0f1-35ec7882fd75, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_79a7", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: bf883b99-2b86-418d-a0f1-35ec7882fd75, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_744d", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: bf883b99-2b86-418d-a0f1-35ec7882fd75, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_6898", type: vmess, server: snhkg.cmvvb.online, port: 8080, uuid: bf883b99-2b86-418d-a0f1-35ec7882fd75, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_0528", type: vmess, server: cxsfvn.uhomdex.shop, port: 443, uuid: bf883b99-2b86-418d-a0f1-35ec7882fd75, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_7a18", type: vmess, server: zzrt.uhomdex.shop, port: 8443, uuid: bf883b99-2b86-418d-a0f1-35ec7882fd75, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_6bfc", type: vmess, server: hwtqcp.uhomdex.shop, port: 8443, uuid: bf883b99-2b86-418d-a0f1-35ec7882fd75, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_b0a6", type: vmess, server: qvxbtx.uhomdex.shop, port: 443, uuid: bf883b99-2b86-418d-a0f1-35ec7882fd75, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_54e2", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 68fce0cd-d85a-4ae4-ae10-3dde2817616e, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_00bd", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 68fce0cd-d85a-4ae4-ae10-3dde2817616e, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_33f4", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 68fce0cd-d85a-4ae4-ae10-3dde2817616e, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_30ca", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 68fce0cd-d85a-4ae4-ae10-3dde2817616e, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_b4db", type: vmess, server: snhkg.cmvvb.online, port: 8080, uuid: 68fce0cd-d85a-4ae4-ae10-3dde2817616e, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_3c3c", type: vmess, server: cxsfvn.uhomdex.shop, port: 443, uuid: 68fce0cd-d85a-4ae4-ae10-3dde2817616e, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_4815", type: vmess, server: zzrt.uhomdex.shop, port: 8443, uuid: 68fce0cd-d85a-4ae4-ae10-3dde2817616e, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_da2f", type: vmess, server: hwtqcp.uhomdex.shop, port: 8443, uuid: 68fce0cd-d85a-4ae4-ae10-3dde2817616e, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_abcb", type: vmess, server: qvxbtx.uhomdex.shop, port: 443, uuid: 68fce0cd-d85a-4ae4-ae10-3dde2817616e, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_4e22", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 971e05f0-1143-4dae-826b-2c07f1b111a0, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_87c8", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 971e05f0-1143-4dae-826b-2c07f1b111a0, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_54b2", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 971e05f0-1143-4dae-826b-2c07f1b111a0, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_2aad", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 971e05f0-1143-4dae-826b-2c07f1b111a0, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_a508", type: vmess, server: snhkg.cmvvb.online, port: 8080, uuid: 971e05f0-1143-4dae-826b-2c07f1b111a0, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_891a", type: vmess, server: cxsfvn.uhomdex.shop, port: 443, uuid: 971e05f0-1143-4dae-826b-2c07f1b111a0, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_f6a0", type: vmess, server: zzrt.uhomdex.shop, port: 8443, uuid: 971e05f0-1143-4dae-826b-2c07f1b111a0, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_1b8f", type: vmess, server: hwtqcp.uhomdex.shop, port: 8443, uuid: 971e05f0-1143-4dae-826b-2c07f1b111a0, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_c7cd", type: vmess, server: qvxbtx.uhomdex.shop, port: 443, uuid: 971e05f0-1143-4dae-826b-2c07f1b111a0, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_6abc", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 2e0fe4f7-5991-42b2-b59a-bae7111ee4ab, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_152c", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 2e0fe4f7-5991-42b2-b59a-bae7111ee4ab, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_ad90", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 2e0fe4f7-5991-42b2-b59a-bae7111ee4ab, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_c100", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 2e0fe4f7-5991-42b2-b59a-bae7111ee4ab, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_2e79", type: vmess, server: snhkg.cmvvb.online, port: 8080, uuid: 2e0fe4f7-5991-42b2-b59a-bae7111ee4ab, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_a424", type: vmess, server: cxsfvn.uhomdex.shop, port: 443, uuid: 2e0fe4f7-5991-42b2-b59a-bae7111ee4ab, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_5e74", type: vmess, server: zzrt.uhomdex.shop, port: 8443, uuid: 2e0fe4f7-5991-42b2-b59a-bae7111ee4ab, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_5742", type: vmess, server: hwtqcp.uhomdex.shop, port: 8443, uuid: 2e0fe4f7-5991-42b2-b59a-bae7111ee4ab, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_c016", type: vmess, server: qvxbtx.uhomdex.shop, port: 443, uuid: 2e0fe4f7-5991-42b2-b59a-bae7111ee4ab, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_c880", type: vmess, server: expired.example.com, port: 80, uuid: 20c3fbbe-7fd8-45a8-a86c-5419132a45be, cipher: auto, tls: false, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_0807", type: vmess, server: expired.example.com, port: 80, uuid: 20c3fbbe-7fd8-45a8-a86c-5419132a45be, cipher: auto, tls: false, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_8771", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 4c510ca2-9126-4559-9790-44454095def9, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_01d0", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 4c510ca2-9126-4559-9790-44454095def9, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_b1d0", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 4c510ca2-9126-4559-9790-44454095def9, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_0d50", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 4c510ca2-9126-4559-9790-44454095def9, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_8146", type: vmess, server: snhkg.cmvvb.online, port: 8080, uuid: 4c510ca2-9126-4559-9790-44454095def9, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_b18f", type: vmess, server: cxsfvn.uhomdex.shop, port: 443, uuid: 4c510ca2-9126-4559-9790-44454095def9, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_c540", type: vmess, server: zzrt.uhomdex.shop, port: 8443, uuid: 4c510ca2-9126-4559-9790-44454095def9, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_97b0", type: vmess, server: hwtqcp.uhomdex.shop, port: 8443, uuid: 4c510ca2-9126-4559-9790-44454095def9, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_daa0", type: vmess, server: qvxbtx.uhomdex.shop, port: 443, uuid: 4c510ca2-9126-4559-9790-44454095def9, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_1233", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 93528bff-8b5d-450d-9d13-1c167cccc352, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_47ea", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 93528bff-8b5d-450d-9d13-1c167cccc352, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_2f19", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 93528bff-8b5d-450d-9d13-1c167cccc352, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_44f8", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 93528bff-8b5d-450d-9d13-1c167cccc352, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_d5da", type: vmess, server: snhkg.cmvvb.online, port: 8080, uuid: 93528bff-8b5d-450d-9d13-1c167cccc352, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_5954", type: vmess, server: cxsfvn.uhomdex.shop, port: 443, uuid: 93528bff-8b5d-450d-9d13-1c167cccc352, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_f669", type: vmess, server: zzrt.uhomdex.shop, port: 8443, uuid: 93528bff-8b5d-450d-9d13-1c167cccc352, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_e183", type: vmess, server: hwtqcp.uhomdex.shop, port: 8443, uuid: 93528bff-8b5d-450d-9d13-1c167cccc352, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_73cb", type: vmess, server: qvxbtx.uhomdex.shop, port: 443, uuid: 93528bff-8b5d-450d-9d13-1c167cccc352, cipher: auto, tls: true, udp: true }
