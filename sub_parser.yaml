@@ -1,6 +1,6 @@
 # 订阅节点聚合器
-# Updated: 2026-07-05 20:51:19
-# Total: 123
+# Updated: 2026-07-06 02:34:15
+# Total: 124
 
 port: 7890
 mode: Rule
@@ -9,25 +9,26 @@ dns:
   nameserver: [119.29.29.29, 223.5.5.5]
 
 proxies:
-  - { name: "🇮🇹 意大利 订阅节点聚合器_14d7", type: ss, server: 103.241.66.76, port: 14605, udp: true }
-  - { name: "🇦🇺 澳大利亚 订阅节点聚合器_01ce", type: ss, server: 45.77.232.213, port: 15675, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_6671", type: ss, server: 45.32.122.179, port: 23027, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_000b", type: ss, server: 38.54.80.160, port: 16292, udp: true }
-  - { name: "🇧🇷 巴西 订阅节点聚合器_d28a", type: ss, server: 38.180.221.143, port: 17283, udp: true }
+  - { name: "🇦🇺 澳大利亚 订阅节点聚合器_a391", type: ss, server: 67.219.106.119, port: 26286, udp: true }
+  - { name: "🇮🇹 意大利 订阅节点聚合器_14d7", type: ss, server: 103.241.66.76, port: 14605, udp: true }
+  - { name: "🇮🇹 意大利 订阅节点聚合器_3a13", type: ss, server: 193.168.175.56, port: 14605, udp: true }
+  - { name: "🇮🇱 以色列 订阅节点聚合器_86c1", type: ss, server: 103.240.147.113, port: 14605, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_2135", type: vmess, server: 69.84.182.49, port: 80, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, cipher: auto, tls: false, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_b451", type: vmess, server: yg2.ygkkk.dpdns.org, port: 80, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, cipher: auto, tls: false, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_ac9c", type: vmess, server: cf.tencentapp.cn, port: 80, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, cipher: auto, tls: false, udp: true }
-  - { name: "🇳🇱 荷兰 订阅节点聚合器_1278", type: vless, server: nl.monkeyvillage.pro, port: 443, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_90ab", type: vless, server: alese.locations-sub.com, port: 6300, udp: true }
   - { name: "🇫🇮 芬兰 订阅节点聚合器_8d5d", type: vless, server: fi-one.quiet-rogue.site, port: 443, udp: true }
-  - { name: "🇬🇧 英国 订阅节点聚合器_e133", type: vless, server: engelestanclouding.iranlast.com, port: 7009, udp: true }
-  - { name: "🇷🇺 俄罗斯联邦 订阅节点聚合器_b77f", type: vless, server: 78.159.250.189, port: 1111, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_e110", type: vless, server: 155.117.137.110, port: 443, udp: true }
-  - { name: "🇦🇹 奥地利 订阅节点聚合器_c1ac", type: vless, server: at.monkeyvillage.pro, port: 443, udp: true }
-  - { name: "🇸🇪 瑞典 订阅节点聚合器_fc33", type: vless, server: 84.32.99.84, port: 443, udp: true }
-  - { name: "🇷🇺 俄罗斯联邦 订阅节点聚合器_8603", type: vless, server: 87.236.22.165, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_07c2", type: vless, server: 216.227.169.104, port: 443, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_8b60", type: vless, server: vip2.firelinkvpn.shop, port: 8443, udp: true }
   - { name: "🇷🇺 俄罗斯联邦 订阅节点聚合器_40af", type: vless, server: 78.159.245.45, port: 25565, udp: true }
+  - { name: "🇳🇱 荷兰 订阅节点聚合器_1278", type: vless, server: nl.monkeyvillage.pro, port: 443, udp: true }
+  - { name: "🇬🇧 英国 订阅节点聚合器_855b", type: vless, server: e.ramcalshoping.ir, port: 18022, udp: true }
+  - { name: "🇷🇺 俄罗斯联邦 订阅节点聚合器_8603", type: vless, server: 87.236.22.165, port: 443, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_90ab", type: vless, server: alese.locations-sub.com, port: 6300, udp: true }
+  - { name: "🇩🇪 德国 订阅节点聚合器_1e62", type: vless, server: 45.145.56.169, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_07c2", type: vless, server: 216.227.169.104, port: 443, udp: true }
+  - { name: "🇦🇹 奥地利 订阅节点聚合器_c1ac", type: vless, server: at.monkeyvillage.pro, port: 443, udp: true }
+  - { name: "🇷🇺 俄罗斯联邦 订阅节点聚合器_b77f", type: vless, server: 78.159.250.189, port: 1111, udp: true }
   - { name: "🇸🇨 塞舌尔 订阅节点聚合器_f50f", type: vless, server: us.wulan.sbs, port: 45623, udp: true }
   - { name: "🇸🇨 塞舌尔 订阅节点聚合器_4dae", type: vless, server: us.wulan.sbs, port: 45783, udp: true }
   - { name: "🇸🇨 塞舌尔 订阅节点聚合器_22ea", type: vless, server: us.wulan.sbs, port: 47223, udp: true }
