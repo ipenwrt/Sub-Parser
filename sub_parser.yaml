@@ -1,6 +1,6 @@
 # 订阅节点聚合器
-# Updated: 2026-07-11 09:21:04
-# Total: 133
+# Updated: 2026-07-11 13:04:31
+# Total: 139
 
 port: 7890
 mode: Rule
@@ -10,7 +10,7 @@ dns:
 
 proxies:
   - { name: "🇨🇳 中国 订阅节点聚合器_8290", type: vless, server: 101.43.62.88, port: 22001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_9006", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_81db", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_6ed9", type: trojan, server: free77-sg1.node2.top, port: 7000, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_5bb6", type: trojan, server: free77-sg2.node2.top, port: 7000, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_a331", type: trojan, server: free77-sg3.node2.top, port: 443, udp: true }
@@ -26,8 +26,50 @@ proxies:
   - { name: "🇹🇼 台湾 订阅节点聚合器_927a", type: trojan, server: free73-tw1.node2.top, port: 55006, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_ba30", type: trojan, server: free73-tw2.node2.top, port: 55005, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_431f", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_be6d", type: vmess, server: expired.example.com, port: 80, uuid: 42b31b1b-7b12-45f1-bfc8-113eea2b83b8, cipher: auto, tls: false, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_3127", type: vmess, server: expired.example.com, port: 80, uuid: 42b31b1b-7b12-45f1-bfc8-113eea2b83b8, cipher: auto, tls: false, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_4550", type: ss, server: 167.179.99.83, port: 8445, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_5e65", type: vmess, server: 167.179.99.83, port: 8443, uuid: 0256e140-b6f9-4a8c-9f49-6e60bbc148c9, cipher: auto, tls: false, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_6fbb", type: vmess, server: 144.202.98.98, port: 8444, uuid: 0256e140-b6f9-4a8c-9f49-6e60bbc148c9, cipher: auto, tls: false, udp: true }
+  - { name: "🇨🇳 中国 订阅节点聚合器_9427", type: vless, server: 101.43.62.88, port: 22001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_66da", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_4125", type: trojan, server: free77-sg1.node2.top, port: 7000, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_97a7", type: trojan, server: free77-sg2.node2.top, port: 7000, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_80dc", type: trojan, server: free77-sg3.node2.top, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_692f", type: trojan, server: free73-hk1.node2.top, port: 7000, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_5286", type: trojan, server: free73-hk2.node2.top, port: 55102, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_2ce6", type: trojan, server: free73-hk3.node2.top, port: 55001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_ee78", type: trojan, server: free73-jp1.node2.top, port: 55004, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_4b55", type: trojan, server: free73-jp2.node2.top, port: 7000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_1e85", type: trojan, server: free73-jp3.node2.top, port: 7000, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_f9a7", type: trojan, server: free73-us1.node2.top, port: 55008, udp: true }
+  - { name: "🇮🇱 以色列 订阅节点聚合器_f594", type: trojan, server: free73-us2.node2.top, port: 55007, udp: true }
+  - { name: "🇮🇱 以色列 订阅节点聚合器_9503", type: trojan, server: free73-us3.node2.top, port: 55007, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_9c01", type: trojan, server: free73-tw1.node2.top, port: 55006, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_c083", type: trojan, server: free73-tw2.node2.top, port: 55005, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_52bd", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
+  - { name: "🇨🇳 中国 订阅节点聚合器_44bc", type: vless, server: 101.43.62.88, port: 22001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_7811", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_21cc", type: trojan, server: free77-sg1.node2.top, port: 7000, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_3afe", type: trojan, server: free77-sg2.node2.top, port: 7000, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_b51b", type: trojan, server: free77-sg3.node2.top, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_376b", type: trojan, server: free73-hk1.node2.top, port: 7000, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_6d27", type: trojan, server: free73-hk2.node2.top, port: 55102, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_3f30", type: trojan, server: free73-hk3.node2.top, port: 55001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_0636", type: trojan, server: free73-jp1.node2.top, port: 55004, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_aa97", type: trojan, server: free73-jp2.node2.top, port: 7000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_f3bb", type: trojan, server: free73-jp3.node2.top, port: 7000, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_abf8", type: trojan, server: free73-us1.node2.top, port: 55008, udp: true }
+  - { name: "🇮🇱 以色列 订阅节点聚合器_878c", type: trojan, server: free73-us2.node2.top, port: 55007, udp: true }
+  - { name: "🇮🇱 以色列 订阅节点聚合器_6b98", type: trojan, server: free73-us3.node2.top, port: 55007, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_7f5c", type: trojan, server: free73-tw1.node2.top, port: 55006, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_9ff7", type: trojan, server: free73-tw2.node2.top, port: 55005, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_1c78", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_6dc4", type: vless, server: kr-b.bnsss.cc, port: 8080, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_08c2", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_326d", type: vless, server: kr-c.bnsss.cc, port: 8087, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_c921", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_20e8", type: vless, server: 207.57.128.27, port: 8081, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_7f7b", type: vmess, server: expired.example.com, port: 80, uuid: a649d36d-2abb-4de8-b4eb-5992fe22170b, cipher: auto, tls: false, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_077b", type: vmess, server: expired.example.com, port: 80, uuid: a649d36d-2abb-4de8-b4eb-5992fe22170b, cipher: auto, tls: false, udp: true }
   - { name: "🇨🇳 中国 订阅节点聚合器_afe0", type: vless, server: 101.43.62.88, port: 22001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_173d", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_4490", type: trojan, server: free77-sg1.node2.top, port: 7000, udp: true }
@@ -48,53 +90,27 @@ proxies:
   - { name: "🇯🇵 日本 订阅节点聚合器_2451", type: ss, server: 167.179.99.83, port: 8445, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_1901", type: vmess, server: 167.179.99.83, port: 8443, uuid: 4ac765ec-51cc-4b96-b007-8b8d32e35e11, cipher: auto, tls: false, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_7f98", type: vmess, server: 144.202.98.98, port: 8444, uuid: 4ac765ec-51cc-4b96-b007-8b8d32e35e11, cipher: auto, tls: false, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_4550", type: ss, server: 167.179.99.83, port: 8445, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_5e65", type: vmess, server: 167.179.99.83, port: 8443, uuid: 0256e140-b6f9-4a8c-9f49-6e60bbc148c9, cipher: auto, tls: false, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_6fbb", type: vmess, server: 144.202.98.98, port: 8444, uuid: 0256e140-b6f9-4a8c-9f49-6e60bbc148c9, cipher: auto, tls: false, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_af52", type: vmess, server: runheng.cloud, port: 80, uuid: 64bd7d62-7c00-4463-954b-3dd20320dded, cipher: auto, tls: false, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_02f2", type: vmess, server: runheng.cloud, port: 80, uuid: 64bd7d62-7c00-4463-954b-3dd20320dded, cipher: auto, tls: false, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_c6e2", type: vmess, server: runheng.cloud, port: 80, uuid: 64bd7d62-7c00-4463-954b-3dd20320dded, cipher: auto, tls: false, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_c3f2", type: ss, server: 167.179.99.83, port: 8445, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_79f2", type: vmess, server: 167.179.99.83, port: 8443, uuid: af18fdfc-38f4-42f8-ab32-7fe0c34ce422, cipher: auto, tls: false, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_0a5b", type: vmess, server: 144.202.98.98, port: 8444, uuid: af18fdfc-38f4-42f8-ab32-7fe0c34ce422, cipher: auto, tls: false, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_4849", type: vmess, server: 47.76.127.88, port: 5566, uuid: aeff933f-0ae6-4465-85bf-12f1394f35af, cipher: auto, tls: false, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_e212", type: vmess, server: 47.76.127.88, port: 5566, uuid: aeff933f-0ae6-4465-85bf-12f1394f35af, cipher: auto, tls: false, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_887b", type: vmess, server: 47.76.127.88, port: 5566, uuid: aeff933f-0ae6-4465-85bf-12f1394f35af, cipher: auto, tls: false, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_f8b4", type: vmess, server: 47.76.127.88, port: 5566, uuid: aeff933f-0ae6-4465-85bf-12f1394f35af, cipher: auto, tls: false, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_6248", type: vmess, server: runheng.cloud, port: 80, uuid: 64bd7d62-7c00-4463-954b-3dd20320dded, cipher: auto, tls: false, udp: true }
-  - { name: "🇬🇧 英国 订阅节点聚合器_70d6", type: vless, server: fi.karzino-connected.com, port: 443, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_9a0e", type: vmess, server: m.cnmjin.net, port: 16645, uuid: 3d77ce8d-f72b-4999-bef2-5a24ba0c74b1, cipher: auto, tls: false, udp: true }
   - { name: "🇬🇧 英国 订阅节点聚合器_bb53", type: vless, server: 31.76.251.3, port: 443, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_e5d7", type: vless, server: qudi.jobwebs.ir, port: 56625, udp: true }
-  - { name: "🇸🇪 瑞典 订阅节点聚合器_1e9a", type: vless, server: 148.253.211.10, port: 443, udp: true }
-  - { name: "🇨🇳 中国 订阅节点聚合器_ef26", type: vless, server: 101.43.62.88, port: 22001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_965d", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_3fd8", type: trojan, server: free77-sg1.node2.top, port: 7000, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_5ae7", type: trojan, server: free77-sg2.node2.top, port: 7000, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_df48", type: trojan, server: free77-sg3.node2.top, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_d007", type: trojan, server: free73-hk1.node2.top, port: 7000, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_b1a6", type: trojan, server: free73-hk2.node2.top, port: 55102, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_6082", type: trojan, server: free73-hk3.node2.top, port: 55001, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_397d", type: trojan, server: free73-jp1.node2.top, port: 55004, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_80b9", type: trojan, server: free73-jp2.node2.top, port: 7000, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_672e", type: trojan, server: free73-jp3.node2.top, port: 7000, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_2f81", type: trojan, server: free73-us1.node2.top, port: 55008, udp: true }
-  - { name: "🇮🇱 以色列 订阅节点聚合器_5fb3", type: trojan, server: free73-us2.node2.top, port: 55007, udp: true }
-  - { name: "🇮🇱 以色列 订阅节点聚合器_82b5", type: trojan, server: free73-us3.node2.top, port: 55007, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_c64d", type: trojan, server: free73-tw1.node2.top, port: 55006, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_1406", type: trojan, server: free73-tw2.node2.top, port: 55005, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_d588", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
-  - { name: "🇨🇳 中国 订阅节点聚合器_3a8b", type: vless, server: 101.43.62.88, port: 22001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_3ef6", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_2901", type: trojan, server: free77-sg1.node2.top, port: 7000, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_ca41", type: trojan, server: free77-sg2.node2.top, port: 7000, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_cb56", type: trojan, server: free77-sg3.node2.top, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_6bd1", type: trojan, server: free73-hk1.node2.top, port: 7000, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_ce95", type: trojan, server: free73-hk2.node2.top, port: 55102, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_f52e", type: trojan, server: free73-hk3.node2.top, port: 55001, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_ee2f", type: trojan, server: free73-jp1.node2.top, port: 55004, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_4103", type: trojan, server: free73-jp2.node2.top, port: 7000, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_b46f", type: trojan, server: free73-jp3.node2.top, port: 7000, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_4a39", type: trojan, server: free73-us1.node2.top, port: 55008, udp: true }
-  - { name: "🇮🇱 以色列 订阅节点聚合器_7f03", type: trojan, server: free73-us2.node2.top, port: 55007, udp: true }
-  - { name: "🇮🇱 以色列 订阅节点聚合器_95a7", type: trojan, server: free73-us3.node2.top, port: 55007, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_aab1", type: trojan, server: free73-tw1.node2.top, port: 55006, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_df7e", type: trojan, server: free73-tw2.node2.top, port: 55005, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_253d", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
+  - { name: "🇵🇱 波兰 订阅节点聚合器_1e15", type: vless, server: 87.199.199.186, port: 8090, udp: true }
+  - { name: "🇳🇱 荷兰 订阅节点聚合器_b5a1", type: vless, server: 138.124.98.135, port: 443, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_6ef6", type: vless, server: 116.206.92.167, port: 443, udp: true }
+  - { name: "🇨🇦 加拿大 订阅节点聚合器_6ad6", type: vless, server: 151.101.212.11, port: 80, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_cb98", type: vless, server: 5xptkkpo.cf.3666888.xyz, port: 2082, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_a1b6", type: vless, server: 104.17.178.154, port: 8880, udp: true }
+  - { name: "🇵🇭 菲律宾 订阅节点聚合器_4ff2", type: vless, server: 8.212.144.72, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_1f0a", type: vless, server: 104.17.178.154, port: 8880, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_50bc", type: vless, server: www.glassdoor.com, port: 8880, udp: true }
   - { name: "🇨🇳 中国 订阅节点聚合器_2be1", type: vless, server: 101.43.62.88, port: 22001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_0fa6", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_ae47", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_93c6", type: trojan, server: free77-sg1.node2.top, port: 7000, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_db17", type: trojan, server: free77-sg2.node2.top, port: 7000, udp: true }
   - { name: "🇸🇬 新加坡 订阅节点聚合器_896a", type: trojan, server: free77-sg3.node2.top, port: 443, udp: true }
@@ -110,35 +126,25 @@ proxies:
   - { name: "🇹🇼 台湾 订阅节点聚合器_88ab", type: trojan, server: free73-tw1.node2.top, port: 55006, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_a1a4", type: trojan, server: free73-tw2.node2.top, port: 55005, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_282b", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
-  - { name: "🇨🇳 中国 订阅节点聚合器_9427", type: vless, server: 101.43.62.88, port: 22001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_cfcb", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_4125", type: trojan, server: free77-sg1.node2.top, port: 7000, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_97a7", type: trojan, server: free77-sg2.node2.top, port: 7000, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_80dc", type: trojan, server: free77-sg3.node2.top, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_692f", type: trojan, server: free73-hk1.node2.top, port: 7000, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_5286", type: trojan, server: free73-hk2.node2.top, port: 55102, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_2ce6", type: trojan, server: free73-hk3.node2.top, port: 55001, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_ee78", type: trojan, server: free73-jp1.node2.top, port: 55004, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_4b55", type: trojan, server: free73-jp2.node2.top, port: 7000, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_1e85", type: trojan, server: free73-jp3.node2.top, port: 7000, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_f9a7", type: trojan, server: free73-us1.node2.top, port: 55008, udp: true }
-  - { name: "🇮🇱 以色列 订阅节点聚合器_f594", type: trojan, server: free73-us2.node2.top, port: 55007, udp: true }
-  - { name: "🇮🇱 以色列 订阅节点聚合器_9503", type: trojan, server: free73-us3.node2.top, port: 55007, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_9c01", type: trojan, server: free73-tw1.node2.top, port: 55006, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_c083", type: trojan, server: free73-tw2.node2.top, port: 55005, udp: true }
-  - { name: "🇹🇼 台湾 订阅节点聚合器_52bd", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_770e", type: vless, server: kr-b.bnsss.cc, port: 8080, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_08c2", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_b9fe", type: vless, server: kr-c.bnsss.cc, port: 8087, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_504c", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_f63b", type: vless, server: 207.57.128.27, port: 8081, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_3c3d", type: vless, server: 67.215.237.125, port: 40444, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_161b", type: vless, server: 5.253.38.67, port: 40444, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_a443", type: vless, server: kr-b.bnsss.cc, port: 8080, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_d175", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_416b", type: vless, server: kr-c.bnsss.cc, port: 8087, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_01dc", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_9adc", type: vless, server: 207.57.128.27, port: 8081, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_c3f2", type: ss, server: 167.179.99.83, port: 8445, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_79f2", type: vmess, server: 167.179.99.83, port: 8443, uuid: af18fdfc-38f4-42f8-ab32-7fe0c34ce422, cipher: auto, tls: false, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_0a5b", type: vmess, server: 144.202.98.98, port: 8444, uuid: af18fdfc-38f4-42f8-ab32-7fe0c34ce422, cipher: auto, tls: false, udp: true }
+  - { name: "🇨🇳 中国 订阅节点聚合器_ef26", type: vless, server: 101.43.62.88, port: 22001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_c666", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_3fd8", type: trojan, server: free77-sg1.node2.top, port: 7000, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_5ae7", type: trojan, server: free77-sg2.node2.top, port: 7000, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_df48", type: trojan, server: free77-sg3.node2.top, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_d007", type: trojan, server: free73-hk1.node2.top, port: 7000, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_b1a6", type: trojan, server: free73-hk2.node2.top, port: 55102, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_6082", type: trojan, server: free73-hk3.node2.top, port: 55001, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_397d", type: trojan, server: free73-jp1.node2.top, port: 55004, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_80b9", type: trojan, server: free73-jp2.node2.top, port: 7000, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_672e", type: trojan, server: free73-jp3.node2.top, port: 7000, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_2f81", type: trojan, server: free73-us1.node2.top, port: 55008, udp: true }
+  - { name: "🇮🇱 以色列 订阅节点聚合器_5fb3", type: trojan, server: free73-us2.node2.top, port: 55007, udp: true }
+  - { name: "🇮🇱 以色列 订阅节点聚合器_82b5", type: trojan, server: free73-us3.node2.top, port: 55007, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_c64d", type: trojan, server: free73-tw1.node2.top, port: 55006, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_1406", type: trojan, server: free73-tw2.node2.top, port: 55005, udp: true }
+  - { name: "🇹🇼 台湾 订阅节点聚合器_d588", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_5d96", type: vless, server: kr-b.bnsss.cc, port: 8080, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_d6a6", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_ceb6", type: vless, server: kr-c.bnsss.cc, port: 8087, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_eec1", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_d3c1", type: vless, server: 207.57.128.27, port: 8081, udp: true }
