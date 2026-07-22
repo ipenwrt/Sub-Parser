@@ -1,6 +1,6 @@
 # 订阅节点聚合器
-# Updated: 2026-07-21 21:00:04
-# Total: 251
+# Updated: 2026-07-22 02:01:30
+# Total: 224
 
 port: 7890
 mode: Rule
@@ -9,22 +9,11 @@ dns:
   nameserver: [119.29.29.29, 223.5.5.5]
 
 proxies:
-  - { name: "🇬🇧 英国 订阅节点聚合器_94f4", type: vless, server: 31.77.238.30, port: 520, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_dcfd", type: vless, server: cdn.globalschool.edu.kg, port: 10001, udp: true }
-  - { name: "🇳🇱 荷兰 订阅节点聚合器_b2de", type: vless, server: 195.63.143.185, port: 26017, udp: true }
-  - { name: "🇬🇧 英国 订阅节点聚合器_c1cf", type: vless, server: media.globalschool.edu.kg, port: 10002, udp: true }
-  - { name: "🇵🇱 波兰 订阅节点聚合器_39dc", type: vless, server: 87.199.205.95, port: 39154, udp: true }
-  - { name: "🇮🇸 冰岛 订阅节点聚合器_e531", type: vless, server: 188.241.54.30, port: 443, udp: true }
-  - { name: "🇮🇸 冰岛 订阅节点聚合器_5a44", type: hysteria2, server: 188.241.54.30, port: 443, udp: true }
-  - { name: "🇳🇱 荷兰 订阅节点聚合器_b411", type: hysteria2, server: 195.63.143.185, port: 443, udp: true }
-  - { name: "🇵🇱 波兰 订阅节点聚合器_611d", type: hysteria2, server: 87.199.205.95, port: 443, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_2f91", type: vless, server: 62.84.176.71, port: 24443, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_3481", type: vless, server: 62.84.176.93, port: 24444, udp: true }
-  - { name: "🇲🇴 澳门 订阅节点聚合器_8fde", type: vless, server: 178.253.32.137, port: 443, udp: true }
-  - { name: "🇬🇧 英国 订阅节点聚合器_8536", type: vless, server: 178.83.207.18, port: 443, udp: true }
-  - { name: "🇬🇧 英国 订阅节点聚合器_03f2", type: hysteria2, server: 212.135.39.110, port: 443, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_533a", type: hysteria2, server: 185.81.29.188, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_469d", type: hysteria2, server: 23.144.20.235, port: 443, udp: true }
+  - { name: "🇮🇸 冰岛 订阅节点聚合器_2a36", type: hysteria2, server: 188.241.54.30, port: 40000, udp: true }
+  - { name: "🇳🇱 荷兰 订阅节点聚合器_bb70", type: hysteria2, server: 195.63.143.185, port: 45000, udp: true }
+  - { name: "🇵🇱 波兰 订阅节点聚合器_0bfb", type: hysteria2, server: 87.199.205.95, port: 50000, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_bb1c", type: hysteria2, server: 62.84.176.71, port: 20000, udp: true }
+  - { name: "🇫🇷 法国 订阅节点聚合器_f0d4", type: hysteria2, server: 62.84.176.93, port: 30000, udp: true }
   - { name: "🇷🇺 俄罗斯联邦 订阅节点聚合器_b230", type: vless, server: 193.124.112.67, port: 520, udp: true }
   - { name: "🇩🇪 德国 订阅节点聚合器_0f85", type: vless, server: cdn.globalschool.edu.kg, port: 10001, udp: true }
   - { name: "🇳🇱 荷兰 订阅节点聚合器_6624", type: vless, server: ams1.globalschool.edu.kg, port: 26017, udp: true }
@@ -61,164 +50,146 @@ proxies:
   - { name: "🇹🇼 台湾 订阅节点聚合器_5735", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_07d7", type: vmess, server: expired.example.com, port: 80, uuid: 65431e06-8c41-4f7e-bbc0-289471f3ec18, cipher: auto, tls: false, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_fa9e", type: vmess, server: expired.example.com, port: 80, uuid: 65431e06-8c41-4f7e-bbc0-289471f3ec18, cipher: auto, tls: false, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_3acb", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: e60aac59-5c25-4c5c-849d-fbe714098d2f, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_4783", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: e60aac59-5c25-4c5c-849d-fbe714098d2f, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_2caa", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: e60aac59-5c25-4c5c-849d-fbe714098d2f, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_bf0f", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: e60aac59-5c25-4c5c-849d-fbe714098d2f, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_ca12", type: vmess, server: snhkg.cmvvb.online, port: 8080, uuid: e60aac59-5c25-4c5c-849d-fbe714098d2f, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_30d5", type: vmess, server: cxsfvn.uhomdex.shop, port: 443, uuid: e60aac59-5c25-4c5c-849d-fbe714098d2f, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_8c61", type: vmess, server: zzrt.uhomdex.shop, port: 8443, uuid: e60aac59-5c25-4c5c-849d-fbe714098d2f, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_7dcf", type: vmess, server: hwtqcp.uhomdex.shop, port: 8443, uuid: e60aac59-5c25-4c5c-849d-fbe714098d2f, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_dff8", type: vmess, server: qvxbtx.uhomdex.shop, port: 443, uuid: e60aac59-5c25-4c5c-849d-fbe714098d2f, cipher: auto, tls: true, udp: true }
   - { name: "🇰🇷 韩国 订阅节点聚合器_e537", type: vless, server: kr-b.bnsss.cc, port: 8080, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_1314", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_2f60", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
   - { name: "🇰🇷 韩国 订阅节点聚合器_ce9d", type: vless, server: kr-c.bnsss.cc, port: 8087, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_bd9c", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_4b24", type: vless, server: 207.57.128.27, port: 8081, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_a14b", type: vless, server: 104.18.46.46, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_3f38", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_8027", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_52d8", type: vless, server: proxyip.jp.cmliussss.net, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_57e1", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_a09a", type: vless, server: 104.18.37.188, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_8d4d", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_7ee5", type: ss, server: agroup.node5.s.nodelist-airport.com, port: 19212, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_cd55", type: ss, server: bgroup.node3.s2.nodelist-airport.com, port: 34112, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_b022", type: ss, server: cgroup.node4.s.nodelist-airport.com, port: 32313, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_ac32", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_a7e2", type: ss, server: bgp-1313122-228.834928.xyz, port: 52355, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_43af", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_0b59", type: vless, server: 207.57.128.27, port: 8081, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_c685", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_1d20", type: ss, server: bgp-1313122-228.834928.xyz, port: 42339, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_a247", type: vless, server: 104.18.37.188, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_8539", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_d320", type: vless, server: 104.18.37.188, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_0de4", type: vless, server: 104.18.46.46, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_fa30", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_b25a", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_6da7", type: vless, server: 104.18.46.46, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_8399", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_ac23", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_57e1", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_a09a", type: vless, server: 104.18.37.188, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_8d4d", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_13ce", type: vmess, server: bgroup.node1.v.nodelist-airport.com, port: 65111, uuid: 3cbc6984-e05c-48dc-ba27-b47725a8dea9, cipher: auto, tls: false, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_cd55", type: ss, server: bgroup.node3.s2.nodelist-airport.com, port: 34112, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_05ed", type: ss, server: cgroup.node1.s2.nodelist-airport.com, port: 51205, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_8d52", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_35eb", type: ss, server: bgp-1313122-228.834928.xyz, port: 37386, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_5e53", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_0ea9", type: vless, server: 104.18.37.188, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_cb2a", type: vless, server: 104.18.46.46, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_749c", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_90ac", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_6277", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_f11a", type: vless, server: 104.18.37.188, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_b4d5", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_2423", type: vmess, server: agroup.node5.v.nodelist-airport.com, port: 45915, uuid: f288156b-8723-4edb-8cca-4ce9d2df3a11, cipher: auto, tls: false, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_6484", type: vmess, server: bgroup.node4.v.nodelist-airport.com, port: 43313, uuid: 95433298-f181-4c3d-87e4-f7ee4800a39d, cipher: auto, tls: false, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_0aa5", type: vmess, server: cgroup.node3.v.nodelist-airport.com, port: 17525, uuid: b98845ac-ed38-47f6-8524-ef9a05c8eab4, cipher: auto, tls: false, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_bbd6", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🇮🇳 印度 订阅节点聚合器_de2f", type: ss, server: 152.67.1.223, port: 44363, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_5e53", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_0ea9", type: vless, server: 104.18.37.188, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_6da7", type: vless, server: 104.18.46.46, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_88ee", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_ac23", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_f468", type: vmess, server: bgroup.node5.v.nodelist-airport.com, port: 27910, uuid: 95433298-f181-4c3d-87e4-f7ee4800a39d, cipher: auto, tls: false, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_9a29", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_b3fb", type: ss, server: bgp-1313122-228.834928.xyz, port: 20363, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_7386", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_4caf", type: vless, server: 104.18.37.188, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_a1e0", type: vless, server: 104.18.46.46, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_3694", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_6a6a", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_f30d", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_e96e", type: vless, server: 104.18.37.188, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_4faa", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_c922", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_1d20", type: ss, server: bgp-1313122-228.834928.xyz, port: 42339, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_a11d", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_4caf", type: vless, server: 104.18.37.188, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_d02a", type: vless, server: 104.18.46.46, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_0eef", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_6a6a", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_33a8", type: vmess, server: bgroup.node2.v.nodelist-airport.com, port: 33312, uuid: 175db038-b8e2-4859-a208-40415fc79572, cipher: auto, tls: false, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_62f4", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_b02a", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_129e", type: vless, server: 104.18.46.46, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_db88", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_4d1a", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_82f5", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_3c74", type: vless, server: 104.18.37.188, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_be65", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_55d0", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_35eb", type: ss, server: bgp-1313122-228.834928.xyz, port: 37386, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_b02a", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_cb2a", type: vless, server: 104.18.46.46, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_c5c5", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_2cd8", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_ee18", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_a14b", type: vless, server: 104.18.46.46, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_9254", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_1cc4", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_5230", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_49ec", type: vless, server: 104.18.37.188, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_c685", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_bd70", type: ss, server: bgp-1313122-228.834928.xyz, port: 20511, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_ee18", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_a1e0", type: vless, server: 104.18.46.46, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_290d", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_86ca", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_5e78", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_e338", type: vless, server: 104.18.37.188, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_2cd8", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_129e", type: vless, server: 104.18.46.46, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_3694", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_7b0c", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_82dd", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_db88", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_c8a2", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_5400", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_9254", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_f365", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_d381", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_ac32", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_0de4", type: vless, server: 104.18.46.46, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_ca9c", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_d5d0", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_86ca", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_1d85", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_e338", type: vless, server: 104.18.37.188, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_bbd6", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_a2e1", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_7601", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_7b0c", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_b974", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_abb3", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_155e", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_7e6b", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_c8a2", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_2ee0", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_c922", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_b2ee", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_162e", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_f365", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_5e78", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_55d0", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_200e", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_1b5e", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_8027", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_82dd", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_04e2", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_b25a", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_5400", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_1356", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_d381", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_9b60", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_d5d0", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_f909", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_f9b8", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_9a08", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
-  - { name: "🇬🇧 英国 订阅节点聚合器_f935", type: vless, server: 79.72.80.93, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_f63c", type: vless, server: cdn.hk3.cocoduck.org, port: 30407, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_dd78", type: vless, server: ct.877774.xyz, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_7358", type: vless, server: 8.35.211.254, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_57cf", type: vless, server: 104.19.148.236, port: 8443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_30c2", type: vless, server: 104.17.187.50, port: 2087, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_238e", type: vless, server: 104.17.220.179, port: 2083, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_3e22", type: vless, server: 104.17.212.133, port: 2096, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_bccb", type: vless, server: 172.67.73.208, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_18a1", type: vless, server: 8.35.211.130, port: 2083, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_cef8", type: vless, server: 198.41.209.252, port: 8443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_e8ad", type: vless, server: 104.18.33.59, port: 8443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_7b09", type: vless, server: 8.35.211.55, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_a4df", type: vless, server: 104.19.35.72, port: 2087, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_9d10", type: vless, server: 104.17.223.209, port: 2083, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_045d", type: vless, server: 162.159.34.217, port: 2096, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_d9cd", type: vmess, server: cgroup.node5.v.nodelist-airport.com, port: 32735, uuid: 65bc6206-ee8e-458b-823c-91de8a8dff10, cipher: auto, tls: false, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_74f8", type: ss, server: bgroup.node3.s2.nodelist-airport.com, port: 34112, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_e426", type: vless, server: us3do.dnscloudcloud.top, port: 56702, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_c41f", type: vmess, server: mugen44.6bnw.top, port: 8080, uuid: 99bef267-fc80-48b3-a33a-426d79cdde4f, cipher: auto, tls: false, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_cd27", type: vmess, server: mugen44.6bnw.top, port: 8080, uuid: 1140be9f-ba3f-4405-b98b-7b4b3c8fa5ff, cipher: auto, tls: false, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_c8e3", type: vless, server: a8.mhlnf.cn, port: 40940, udp: true }
-  - { name: "🇮🇳 印度 订阅节点聚合器_7af9", type: vless, server: 141.148.207.7, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_7cf2", type: vless, server: cdn.hk1.cocoduck.org, port: 30394, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_9947", type: vless, server: cf.877774.xyz, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_5650", type: vless, server: 104.17.174.94, port: 2083, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_b7f1", type: vless, server: 104.26.9.37, port: 2053, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_643d", type: vless, server: 104.17.156.200, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_36ef", type: vless, server: 8.39.125.233, port: 2087, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_6af7", type: ss, server: bgroup.node5.s2.nodelist-airport.com, port: 23122, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_0dfc", type: vless, server: 3bd9.55dca.e048.f6-fef1f.yfjcs.com, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_f805", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_c197", type: vless, server: 3bd9.55dca.e048.f1-fef1f.yfjcs.com, port: 443, udp: true }
-  - { name: "🇫🇷 法国 订阅节点聚合器_2adb", type: vless, server: 144.24.206.147, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_7601", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_a01c", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_7e6b", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_267a", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_162e", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_258c", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_1b5e", type: vless, server: cf.yfjc.sbs, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_3f38", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_372e", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_fa30", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_240a", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_88ee", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_d692", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_a62a", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_91f2", type: vless, server: 103.228.171.165, port: 443, udp: true }
-  - { name: "🇷🇺 俄罗斯联邦 订阅节点聚合器_c41e", type: vless, server: 104.128.129.145, port: 443, udp: true }
-  - { name: "🇫🇮 芬兰 订阅节点聚合器_a3b3", type: vless, server: 65.109.12.58, port: 2053, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_3b54", type: vless, server: 107.173.250.62, port: 444, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_77e1", type: vless, server: 104.152.49.87, port: 443, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_c373", type: vless, server: 103.228.170.23, port: 2053, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_1533", type: vless, server: 108.162.192.7, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_0610", type: vless, server: 104.20.26.251, port: 443, udp: true }
-  - { name: "🇮🇩 印度尼西亚 订阅节点聚合器_d54b", type: vless, server: 103.178.153.198, port: 443, udp: true }
-  - { name: "🇩🇪 德国 订阅节点聚合器_5576", type: vless, server: 103.7.55.148, port: 2053, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_6dc3", type: vless, server: kr-b.bnsss.cc, port: 8080, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_b49c", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_df9c", type: vless, server: kr-c.bnsss.cc, port: 8087, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_aa3e", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_0eef", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_2520", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_dc5b", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_c5c5", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_290d", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_ffcd", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_5f21", type: vless, server: cfyes.lxy1015.top, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_0b5f", type: vless, server: mycareer.verizon.com, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_3a64", type: vless, server: 104.17.113.228, port: 2087, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_5108", type: vless, server: 104.17.121.37, port: 2083, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_0ebb", type: vless, server: 198.41.208.68, port: 8443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_c143", type: vless, server: 198.41.209.110, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_c7ee", type: vless, server: 104.17.188.114, port: 2096, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_52d8", type: vless, server: proxyip.jp.cmliussss.net, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_be81", type: vless, server: 104.16.146.72, port: 2083, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_5804", type: vless, server: 198.41.209.78, port: 8443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_4764", type: vless, server: 104.19.54.8, port: 2087, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_813a", type: vless, server: 173.245.59.209, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_e028", type: vless, server: 104.17.120.53, port: 8443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_16e1", type: vless, server: 8.35.211.253, port: 2087, udp: true }
+  - { name: "🇮🇳 印度 订阅节点聚合器_7af9", type: vless, server: 141.148.207.7, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_7cf2", type: vless, server: cdn.hk1.cocoduck.org, port: 30394, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_c1c8", type: vless, server: www.xiaoshuofen.com, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_9e1e", type: vless, server: 103.39.78.118, port: 8443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_bc64", type: vless, server: 103.39.78.118, port: 8443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_407d", type: vless, server: 104.18.0.5, port: 443, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_4337", type: vless, server: 104.64.206.111, port: 8443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_ad83", type: vless, server: cu.877774.xyz, port: 443, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_ded1", type: vless, server: 150.230.204.21, port: 10243, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_bc0c", type: vless, server: 108.162.194.61, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_2bff", type: vless, server: www.shopify.com, port: 443, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_adb4", type: vless, server: 104.64.206.111, port: 8443, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_9534", type: vless, server: kr-b.bnsss.cc, port: 8080, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_c721", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_7baa", type: vless, server: kr-c.bnsss.cc, port: 8087, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_5fb7", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_6e61", type: vless, server: 207.57.128.27, port: 8081, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_56c2", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: c7a6da9a-1b9b-49ff-879b-1ca888712a34, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_d218", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: c7a6da9a-1b9b-49ff-879b-1ca888712a34, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_e9d2", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: c7a6da9a-1b9b-49ff-879b-1ca888712a34, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_05c1", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: c7a6da9a-1b9b-49ff-879b-1ca888712a34, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_24a2", type: vmess, server: snhkg.cmvvb.online, port: 8080, uuid: c7a6da9a-1b9b-49ff-879b-1ca888712a34, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_9999", type: vmess, server: cxsfvn.uhomdex.shop, port: 443, uuid: c7a6da9a-1b9b-49ff-879b-1ca888712a34, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_062a", type: vmess, server: zzrt.uhomdex.shop, port: 8443, uuid: c7a6da9a-1b9b-49ff-879b-1ca888712a34, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_6622", type: vmess, server: hwtqcp.uhomdex.shop, port: 8443, uuid: c7a6da9a-1b9b-49ff-879b-1ca888712a34, cipher: auto, tls: true, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_f3ca", type: vmess, server: qvxbtx.uhomdex.shop, port: 443, uuid: c7a6da9a-1b9b-49ff-879b-1ca888712a34, cipher: auto, tls: true, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_976b", type: vless, server: 207.57.128.27, port: 8081, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_2ba4", type: vless, server: fv2026.node2.top, port: 21001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_fac4", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_ea47", type: trojan, server: 141.11.76.57, port: 8209, udp: true }
@@ -237,6 +208,8 @@ proxies:
   - { name: "🇹🇼 台湾 订阅节点聚合器_5590", type: trojan, server: free73-tw1.node2.top, port: 55006, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_bef5", type: trojan, server: free73-tw2.node2.top, port: 55005, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_93c4", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_57e7", type: vless, server: 67.215.237.125, port: 40444, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_aaa5", type: vless, server: 5.253.38.67, port: 40444, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_ee6b", type: vless, server: fv2026.node2.top, port: 21001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_a162", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_8925", type: trojan, server: 141.11.76.57, port: 8209, udp: true }
@@ -256,7 +229,7 @@ proxies:
   - { name: "🇹🇼 台湾 订阅节点聚合器_7e8d", type: trojan, server: free73-tw2.node2.top, port: 55005, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_77f3", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
   - { name: "🇰🇷 韩国 订阅节点聚合器_f366", type: vless, server: kr-b.bnsss.cc, port: 8080, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_4de7", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_c167", type: vless, server: kr-c.bnsss.cc, port: 8087, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_a501", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_2db3", type: vless, server: 207.57.128.27, port: 8081, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_1d10", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_416b", type: vless, server: kr-c.bnsss.cc, port: 8087, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_01dc", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_d3c1", type: vless, server: 207.57.128.27, port: 8081, udp: true }
