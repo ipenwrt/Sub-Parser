@@ -1,6 +1,6 @@
 # 订阅节点聚合器
-# Updated: 2026-07-27 21:07:24
-# Total: 445
+# Updated: 2026-07-28 01:59:41
+# Total: 437
 
 port: 7890
 mode: Rule
@@ -9,8 +9,6 @@ dns:
   nameserver: [119.29.29.29, 223.5.5.5]
 
 proxies:
-  - { name: "🇺🇸 美国 订阅节点聚合器_e53b", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_949e", type: vless, server: 43.231.185.91, port: 4433, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_dd8d", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 119fa4d0-bdb8-414f-ac42-85a52b1f7f92, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_56ee", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 119fa4d0-bdb8-414f-ac42-85a52b1f7f92, cipher: auto, tls: true, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_b98b", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 119fa4d0-bdb8-414f-ac42-85a52b1f7f92, cipher: auto, tls: true, udp: true }
@@ -38,14 +36,12 @@ proxies:
   - { name: "🇹🇼 台湾 订阅节点聚合器_537c", type: trojan, server: free73-tw1.node2.top, port: 55006, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_9ce0", type: trojan, server: free73-tw2.node2.top, port: 55005, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_5735", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_4556", type: vless, server: a3ds.aceurl.cc, port: 40602, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_30c5", type: vless, server: a3ds.aceurl.cc, port: 40602, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_c1fb", type: vless, server: 156.246.93.110, port: 443, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_7489", type: vless, server: sg.dickaws.top, port: 34511, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_a670", type: vless, server: sg.dickaws.top, port: 34518, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_dda1", type: vless, server: ace.fffo.cc, port: 6170, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_ce91", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_895f", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_3117", type: vless, server: a3ds.aceurl.cc, port: 40602, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_9e05", type: vless, server: a3ds.aceurl.cc, port: 40602, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_a546", type: vless, server: 156.246.93.110, port: 443, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_d572", type: vless, server: sg.dickaws.top, port: 34511, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_1d77", type: vless, server: sg.dickaws.top, port: 34518, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_fbaf", type: vless, server: ace.fffo.cc, port: 6170, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_248b", type: vless, server: cdn.caihongmao.org, port: 443, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_6dd3", type: vless, server: 45.192.194.154, port: 40448, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_6e05", type: vless, server: 67.215.237.125, port: 40446, udp: true }
@@ -178,11 +174,11 @@ proxies:
   - { name: "🇹🇼 台湾 订阅节点聚合器_9cd9", type: trojan, server: free73-tw1.node2.top, port: 55006, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_e9d8", type: trojan, server: free73-tw2.node2.top, port: 55005, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_8d4d", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_6dc4", type: vless, server: kr-b.bnsss.cc, port: 8080, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_c721", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_4571", type: vless, server: kr-c.bnsss.cc, port: 8087, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_1899", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_f63b", type: vless, server: 207.57.128.27, port: 8081, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_62d3", type: vless, server: kr-b.bnsss.cc, port: 8080, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_08c2", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_7baa", type: vless, server: kr-c.bnsss.cc, port: 8087, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_c921", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_20e8", type: vless, server: 207.57.128.27, port: 8081, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_7332", type: vless, server: fv2026.node2.top, port: 21001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_a86a", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_6763", type: vless, server: 18.166.142.41, port: 12201, udp: true }
@@ -237,12 +233,12 @@ proxies:
   - { name: "🇹🇼 台湾 订阅节点聚合器_9241", type: trojan, server: free73-tw1.node2.top, port: 55006, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_85aa", type: trojan, server: free73-tw2.node2.top, port: 55005, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_b3b6", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_940f", type: vless, server: a3ds.aceurl.cc, port: 40602, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_6127", type: vless, server: a3ds.aceurl.cc, port: 40602, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_902f", type: vless, server: a3ds.aceurl.cc, port: 40602, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_170f", type: vless, server: a3ds.aceurl.cc, port: 40602, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_8f08", type: vless, server: 156.246.93.110, port: 443, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_7eca", type: vless, server: sg.dickaws.top, port: 34511, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_6cd7", type: vless, server: sg.dickaws.top, port: 34518, udp: true }
-  - { name: "🇸🇬 新加坡 订阅节点聚合器_1b96", type: vless, server: ace.fffo.cc, port: 6170, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_9692", type: vless, server: sg.dickaws.top, port: 34511, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_54b7", type: vless, server: sg.dickaws.top, port: 34518, udp: true }
+  - { name: "🇸🇬 新加坡 订阅节点聚合器_09ad", type: vless, server: ace.fffo.cc, port: 6170, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_34f2", type: vless, server: fv2026.node2.top, port: 21001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_2e9f", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_3511", type: vless, server: 18.166.142.41, port: 12201, udp: true }
@@ -279,8 +275,6 @@ proxies:
   - { name: "🇹🇼 台湾 订阅节点聚合器_8295", type: trojan, server: free73-tw1.node2.top, port: 55006, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_e62e", type: trojan, server: free73-tw2.node2.top, port: 55005, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_3362", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_56bd", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_e299", type: vless, server: 43.231.185.91, port: 4433, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_5490", type: vless, server: fv2026.node2.top, port: 21001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_f59b", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_7d46", type: vless, server: 18.166.142.41, port: 12201, udp: true }
@@ -317,8 +311,6 @@ proxies:
   - { name: "🇹🇼 台湾 订阅节点聚合器_b17c", type: trojan, server: free73-tw1.node2.top, port: 55006, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_7aef", type: trojan, server: free73-tw2.node2.top, port: 55005, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_0693", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_8aa0", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_8814", type: vless, server: 43.231.185.91, port: 4433, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_6155", type: vless, server: fv2026.node2.top, port: 21001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_f849", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_6043", type: vless, server: 18.166.142.41, port: 12201, udp: true }
@@ -337,10 +329,10 @@ proxies:
   - { name: "🇹🇼 台湾 订阅节点聚合器_f2bb", type: trojan, server: free73-tw1.node2.top, port: 55006, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_9e8a", type: trojan, server: free73-tw2.node2.top, port: 55005, udp: true }
   - { name: "🇹🇼 台湾 订阅节点聚合器_e37f", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_475f", type: vless, server: kr-b.bnsss.cc, port: 8080, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_2f60", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_f136", type: vless, server: kr-c.bnsss.cc, port: 8087, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_bd9c", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_bb21", type: vless, server: kr-b.bnsss.cc, port: 8080, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_ad7f", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_af29", type: vless, server: kr-c.bnsss.cc, port: 8087, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_43af", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_0b59", type: vless, server: 207.57.128.27, port: 8081, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_ee2c", type: vless, server: fv2026.node2.top, port: 21001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_a0a7", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
@@ -362,11 +354,11 @@ proxies:
   - { name: "🇹🇼 台湾 订阅节点聚合器_69c3", type: trojan, server: free73-tw3.node2.top, port: 55005, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_57d7", type: vmess, server: expired.example.com, port: 80, uuid: f57ed9fa-d34d-4ff2-9a15-5157e776bef0, cipher: auto, tls: false, udp: true }
   - { name: "🌐 未知地区 订阅节点聚合器_3f59", type: vmess, server: expired.example.com, port: 80, uuid: f57ed9fa-d34d-4ff2-9a15-5157e776bef0, cipher: auto, tls: false, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_5d96", type: vless, server: kr-b.bnsss.cc, port: 8080, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_d6a6", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_e08a", type: vless, server: kr-b.bnsss.cc, port: 8080, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_1d10", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
   - { name: "🇰🇷 韩国 订阅节点聚合器_ceb6", type: vless, server: kr-c.bnsss.cc, port: 8087, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_a501", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_d3c1", type: vless, server: 207.57.128.27, port: 8081, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_e8ba", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_2876", type: vless, server: 207.57.128.27, port: 8081, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_f0af", type: vless, server: fv2026.node2.top, port: 21001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_05a9", type: vless, server: vpn2.cc.node2.top, port: 22001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_74c3", type: vless, server: 18.166.142.41, port: 12201, udp: true }
