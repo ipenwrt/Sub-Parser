@@ -1,6 +1,6 @@
 # 订阅节点聚合器
-# Updated: 2026-08-18 04:29:09
-# Total: 196
+# Updated: 2026-08-18 08:27:24
+# Total: 221
 
 port: 7890
 mode: Rule
@@ -40,6 +40,11 @@ proxies:
   - { name: "🇺🇸 美国 订阅节点聚合器_8813", type: ss, server: 72.244.91.170, port: 20001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_4dae", type: vless, server: 43.231.185.91, port: 4433, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_3d5e", type: vmess, server: m.cqwer.xyz, port: 443, uuid: 1e126aea-9937-4d10-b625-bb25b2fc8042, cipher: auto, tls: true, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_7e8f", type: vmess, server: 185.227.252.204, port: 8080, uuid: d76156fe-f7bd-4785-8bad-51ec8ca5cb2b, cipher: auto, tls: false, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_fbf0", type: vmess, server: 156.231.116.156, port: 8080, uuid: d76156fe-f7bd-4785-8bad-51ec8ca5cb2b, cipher: auto, tls: false, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_f1f5", type: vmess, server: 43.239.249.125, port: 8443, uuid: d76156fe-f7bd-4785-8bad-51ec8ca5cb2b, cipher: auto, tls: false, udp: true }
+  - { name: "🇸🇨 塞舌尔 订阅节点聚合器_263d", type: vmess, server: 45.192.206.6, port: 8080, uuid: d76156fe-f7bd-4785-8bad-51ec8ca5cb2b, cipher: auto, tls: false, udp: true }
+  - { name: "🇸🇨 塞舌尔 订阅节点聚合器_5688", type: vmess, server: 45.192.206.2, port: 8080, uuid: d76156fe-f7bd-4785-8bad-51ec8ca5cb2b, cipher: auto, tls: false, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_f8da", type: vless, server: f-hk-th.mtnode.top, port: 443, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_0fc5", type: vless, server: f-hk-th.mtnode.top, port: 443, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_7f2c", type: vless, server: f-hk-th.mtnode.top, port: 443, udp: true }
@@ -126,11 +131,21 @@ proxies:
   - { name: "🇺🇸 美国 订阅节点聚合器_aa0b", type: ss, server: 72.244.91.170, port: 20001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_0134", type: vless, server: 43.231.185.91, port: 4433, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_781e", type: vless, server: f-hk-th.mtnode.top, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_fc3d", type: vmess, server: 185.227.252.204, port: 8080, uuid: 762ccc0c-207e-41e8-a4bf-f7aea2cff753, cipher: auto, tls: false, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_0be9", type: vmess, server: 156.231.116.156, port: 8080, uuid: 762ccc0c-207e-41e8-a4bf-f7aea2cff753, cipher: auto, tls: false, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_4184", type: vmess, server: 43.239.249.125, port: 8443, uuid: 762ccc0c-207e-41e8-a4bf-f7aea2cff753, cipher: auto, tls: false, udp: true }
+  - { name: "🇸🇨 塞舌尔 订阅节点聚合器_a0b1", type: vmess, server: 45.192.206.6, port: 8080, uuid: 762ccc0c-207e-41e8-a4bf-f7aea2cff753, cipher: auto, tls: false, udp: true }
+  - { name: "🇸🇨 塞舌尔 订阅节点聚合器_5bfb", type: vmess, server: 45.192.206.2, port: 8080, uuid: 762ccc0c-207e-41e8-a4bf-f7aea2cff753, cipher: auto, tls: false, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_3e2d", type: vless, server: f-hk-th.mtnode.top, port: 443, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_c749", type: vmess, server: m.cqwer.xyz, port: 443, uuid: f596d0b3-5fcf-424e-8149-e62e8dcc13b7, cipher: auto, tls: true, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_29c4", type: ss, server: 72.244.91.170, port: 20001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_9f23", type: vless, server: 43.231.185.91, port: 4433, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_f55e", type: vless, server: f-hk-th.mtnode.top, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_4fd0", type: vmess, server: 185.227.252.204, port: 8080, uuid: b3c6fb30-1416-47fc-87a1-784aeb75b526, cipher: auto, tls: false, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_64c6", type: vmess, server: 156.231.116.156, port: 8080, uuid: b3c6fb30-1416-47fc-87a1-784aeb75b526, cipher: auto, tls: false, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_0e66", type: vmess, server: 43.239.249.125, port: 8443, uuid: b3c6fb30-1416-47fc-87a1-784aeb75b526, cipher: auto, tls: false, udp: true }
+  - { name: "🇸🇨 塞舌尔 订阅节点聚合器_d7f0", type: vmess, server: 45.192.206.6, port: 8080, uuid: b3c6fb30-1416-47fc-87a1-784aeb75b526, cipher: auto, tls: false, udp: true }
+  - { name: "🇸🇨 塞舌尔 订阅节点聚合器_4101", type: vmess, server: 45.192.206.2, port: 8080, uuid: b3c6fb30-1416-47fc-87a1-784aeb75b526, cipher: auto, tls: false, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_9bb5", type: ss, server: 72.244.91.170, port: 20001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_7e05", type: vless, server: 43.231.185.91, port: 4433, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_2a8f", type: vless, server: f-hk-th.mtnode.top, port: 443, udp: true }
@@ -152,6 +167,11 @@ proxies:
   - { name: "🇭🇰 香港 订阅节点聚合器_53b6", type: vless, server: 43.231.185.91, port: 4433, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_7f1c", type: vless, server: f-hk-th.mtnode.top, port: 443, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_3412", type: vmess, server: m.cqwer.xyz, port: 443, uuid: e11cbd5f-be19-44f1-b800-c3c6567be629, cipher: auto, tls: true, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_6f64", type: vmess, server: 185.227.252.204, port: 8080, uuid: 70334db7-842b-4e79-8c45-3e6f0563c28d, cipher: auto, tls: false, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_4407", type: vmess, server: 156.231.116.156, port: 8080, uuid: 70334db7-842b-4e79-8c45-3e6f0563c28d, cipher: auto, tls: false, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_5ac2", type: vmess, server: 43.239.249.125, port: 8443, uuid: 70334db7-842b-4e79-8c45-3e6f0563c28d, cipher: auto, tls: false, udp: true }
+  - { name: "🇸🇨 塞舌尔 订阅节点聚合器_982c", type: vmess, server: 45.192.206.6, port: 8080, uuid: 70334db7-842b-4e79-8c45-3e6f0563c28d, cipher: auto, tls: false, udp: true }
+  - { name: "🇸🇨 塞舌尔 订阅节点聚合器_a1f1", type: vmess, server: 45.192.206.2, port: 8080, uuid: 70334db7-842b-4e79-8c45-3e6f0563c28d, cipher: auto, tls: false, udp: true }
   - { name: "🇯🇵 日本 订阅节点聚合器_8131", type: vmess, server: m.cqwer.xyz, port: 443, uuid: 1eb33d57-1d1f-4c80-ba09-ac3567661738, cipher: auto, tls: true, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_d45e", type: ss, server: 72.244.91.170, port: 20001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_ddb1", type: vless, server: 43.231.185.91, port: 4433, udp: true }
@@ -195,6 +215,11 @@ proxies:
   - { name: "🇭🇰 香港 订阅节点聚合器_87fc", type: vless, server: f-hk-th.mtnode.top, port: 443, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_7674", type: ss, server: 72.244.91.170, port: 20001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_97ec", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_ccdf", type: vmess, server: 185.227.252.204, port: 8080, uuid: 26eb4a68-ac8d-4e5c-ba7a-2783cbf11490, cipher: auto, tls: false, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_86a7", type: vmess, server: 156.231.116.156, port: 8080, uuid: 26eb4a68-ac8d-4e5c-ba7a-2783cbf11490, cipher: auto, tls: false, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_62fe", type: vmess, server: 43.239.249.125, port: 8443, uuid: 26eb4a68-ac8d-4e5c-ba7a-2783cbf11490, cipher: auto, tls: false, udp: true }
+  - { name: "🇸🇨 塞舌尔 订阅节点聚合器_f244", type: vmess, server: 45.192.206.6, port: 8080, uuid: 26eb4a68-ac8d-4e5c-ba7a-2783cbf11490, cipher: auto, tls: false, udp: true }
+  - { name: "🇸🇨 塞舌尔 订阅节点聚合器_1d1b", type: vmess, server: 45.192.206.2, port: 8080, uuid: 26eb4a68-ac8d-4e5c-ba7a-2783cbf11490, cipher: auto, tls: false, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_ce53", type: vless, server: f-hk-th.mtnode.top, port: 443, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_a7a6", type: ss, server: 72.244.91.170, port: 20001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_8fa7", type: vless, server: 43.231.185.91, port: 4433, udp: true }
