@@ -1,6 +1,6 @@
 # 订阅节点聚合器
-# Updated: 2026-09-27 09:42:31
-# Total: 185
+# Updated: 2026-09-27 16:10:44
+# Total: 213
 
 port: 7890
 mode: Rule
@@ -9,188 +9,216 @@ dns:
   nameserver: [119.29.29.29, 223.5.5.5]
 
 proxies:
-  - { name: "🇺🇸 美国 订阅节点聚合器_07da", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_d40f", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_195b", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_3c26", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_22a3", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_5332", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_cf94", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_21da", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_3131", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_ceb0", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_f249", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_e347", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_1451", type: vless, server: 83.229.127.168, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_dae3", type: vless, server: w1.lianjieni.com, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_7861", type: vless, server: w2.lianjieni.com, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_39c3", type: vless, server: w3.lianjieni.com, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_b40e", type: vless, server: w4.lianjieni.com, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_1a90", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_57dd", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_ef99", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_5939", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_a600", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_ca9c", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_cbd7", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_7cc9", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_912c", type: vless, server: kr-b.bnsss.cc, port: 8080, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_b59f", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_bd8b", type: vless, server: kr-c.bnsss.cc, port: 8087, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_cb90", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_bbcc", type: vless, server: 207.57.128.27, port: 8081, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_54b4", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_af96", type: vless, server: 43.231.185.91, port: 4433, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_9432", type: ss, server: 72.244.91.170, port: 20001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_eec5", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_d154", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_9546", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_89e5", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_2e87", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_5110", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_ad41", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_2ab5", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_d3fc", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_69c2", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_5320", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_116e", type: vless, server: 43.231.185.91, port: 4433, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_1192", type: ss, server: 72.244.91.170, port: 20001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_2b0d", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_c317", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_8be2", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_c085", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_22a3", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_a316", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_02c3", type: vless, server: 83.229.127.168, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_a55d", type: vless, server: w1.lianjieni.com, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_5c19", type: vless, server: w2.lianjieni.com, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_f39b", type: vless, server: w3.lianjieni.com, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_4795", type: vless, server: w4.lianjieni.com, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_946d", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_1d1f", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_5939", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_a600", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_3a17", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_de96", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_5884", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_cf3f", type: vless, server: 43.231.185.91, port: 4433, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_bdfb", type: ss, server: 72.244.91.170, port: 20001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_9ef1", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_d309", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_0d19", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_cf94", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_9097", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 6dc3d567-23d5-4a78-8f1b-ed554760b1fb, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_613c", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 6dc3d567-23d5-4a78-8f1b-ed554760b1fb, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_8d14", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 6dc3d567-23d5-4a78-8f1b-ed554760b1fb, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_654c", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 6dc3d567-23d5-4a78-8f1b-ed554760b1fb, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_776f", type: vmess, server: snhkg.cmvvb.online, port: 8080, uuid: 6dc3d567-23d5-4a78-8f1b-ed554760b1fb, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_586f", type: vmess, server: cxsfvn.uhomdex.shop, port: 443, uuid: 6dc3d567-23d5-4a78-8f1b-ed554760b1fb, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_28b0", type: vmess, server: zzrt.uhomdex.shop, port: 8443, uuid: 6dc3d567-23d5-4a78-8f1b-ed554760b1fb, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_b393", type: vmess, server: hwtqcp.uhomdex.shop, port: 8443, uuid: 6dc3d567-23d5-4a78-8f1b-ed554760b1fb, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_0261", type: vmess, server: qvxbtx.uhomdex.shop, port: 443, uuid: 6dc3d567-23d5-4a78-8f1b-ed554760b1fb, cipher: auto, tls: true, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_3131", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_ceb0", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_d693", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_8520", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_09c5", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_976d", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_8968", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_0758", type: vless, server: 45.76.215.91, port: 52226, udp: true }
+  - { name: "🇯🇵 日本 订阅节点聚合器_d7ac", type: ss, server: 45.76.215.91, port: 8443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_164e", type: vless, server: us.nb666666.top, port: 443, udp: true }
+  - { name: "🇧🇷 巴西 订阅节点聚合器_9a66", type: vless, server: 191.223.214.11, port: 52227, udp: true }
+  - { name: "🇧🇷 巴西 订阅节点聚合器_3665", type: ss, server: 191.223.214.11, port: 8444, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_1bc0", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_e347", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_25c5", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_1360", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_a831", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_4c8b", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_1a90", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_856f", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_dfc6", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_1329", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_4750", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_f456", type: vless, server: 43.231.185.91, port: 4433, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_64fa", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_e386", type: vmess, server: expired.example.com, port: 80, uuid: 8d5a4b8d-85f8-46bd-9fea-5c7c04ebeea6, cipher: auto, tls: false, udp: true }
-  - { name: "🌐 未知地区 订阅节点聚合器_efe1", type: vmess, server: expired.example.com, port: 80, uuid: 8d5a4b8d-85f8-46bd-9fea-5c7c04ebeea6, cipher: auto, tls: false, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_df5e", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_2dec", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_553d", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_1ec8", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_5c8b", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_408d", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_ddf0", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_de40", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_6cac", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_73a9", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_58c6", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_bf27", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_d1e5", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_c78d", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_9700", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_7e17", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_683c", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_c529", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇲🇾 马来西亚 订阅节点聚合器_f940", type: vless, server: lbb-sanwang-youhua.lbbzz.com, port: 23801, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_c93f", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_616d", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_882e", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_380b", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_f18b", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_7c7f", type: vless, server: www.usyun.cc, port: 443, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_a464", type: vless, server: 83.229.127.168, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_46e1", type: vless, server: w1.lianjieni.com, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_d337", type: vless, server: w2.lianjieni.com, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_da29", type: vless, server: w3.lianjieni.com, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_1704", type: vless, server: w4.lianjieni.com, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_a976", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_51b9", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_42fe", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_1d6e", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_616d", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_882e", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_80da", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_09c5", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_ce8f", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_3374", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_01fd", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_5884", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_cf3f", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_3f2c", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_0cfd", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_cb62", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_c93f", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_240a", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_1043", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_a479", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_946d", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_1d1f", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_4ea7", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_03b5", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_43aa", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_1360", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_a831", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_9fcf", type: vless, server: kr-b.bnsss.cc, port: 8080, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_c9cf", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
-  - { name: "🇰🇷 韩国 订阅节点聚合器_78f5", type: vless, server: kr-c.bnsss.cc, port: 8087, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_b7c7", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_277e", type: vless, server: 207.57.128.27, port: 8081, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_433d", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_7328", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_4d7c", type: vless, server: www.usyun.cc, port: 443, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_beb4", type: ss, server: 72.244.91.170, port: 20001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_e007", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_df5e", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_a965", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_07da", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_d40f", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_79f3", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_86cc", type: vless, server: 43.231.185.91, port: 4433, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_31ee", type: ss, server: 72.244.91.170, port: 20001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_ee27", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_37c8", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_1ef3", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_a316", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_3f2c", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_ddf0", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_de40", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_a976", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_51b9", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_d250", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_3cd4", type: vless, server: 43.231.185.91, port: 4433, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_d56c", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_976d", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_8968", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_bf27", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_ee34", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_a1fd", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_8b56", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_1957", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_c752", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_80da", type: vless, server: www.usyun.cc, port: 443, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_481d", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_cfc7", type: vless, server: 45.76.215.91, port: 52226, udp: true }
-  - { name: "🇯🇵 日本 订阅节点聚合器_e641", type: ss, server: 45.76.215.91, port: 8443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_4181", type: vless, server: us.nb666666.top, port: 443, udp: true }
-  - { name: "🇧🇷 巴西 订阅节点聚合器_31b3", type: vless, server: 191.223.214.11, port: 52227, udp: true }
-  - { name: "🇧🇷 巴西 订阅节点聚合器_32f8", type: ss, server: 191.223.214.11, port: 8444, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_1bc0", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_c4e1", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_f75b", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_26c1", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 4c966d2f-1dec-478b-b373-17b05fae19e4, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_5eb8", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 4c966d2f-1dec-478b-b373-17b05fae19e4, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_e3e5", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 4c966d2f-1dec-478b-b373-17b05fae19e4, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_23d1", type: vmess, server: pdgzb.cmvvb.online, port: 8080, uuid: 4c966d2f-1dec-478b-b373-17b05fae19e4, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_0f8d", type: vmess, server: snhkg.cmvvb.online, port: 8080, uuid: 4c966d2f-1dec-478b-b373-17b05fae19e4, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_83a6", type: vmess, server: cxsfvn.uhomdex.shop, port: 443, uuid: 4c966d2f-1dec-478b-b373-17b05fae19e4, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_322e", type: vmess, server: zzrt.uhomdex.shop, port: 8443, uuid: 4c966d2f-1dec-478b-b373-17b05fae19e4, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_cda2", type: vmess, server: hwtqcp.uhomdex.shop, port: 8443, uuid: 4c966d2f-1dec-478b-b373-17b05fae19e4, cipher: auto, tls: true, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_c3e5", type: vmess, server: qvxbtx.uhomdex.shop, port: 443, uuid: 4c966d2f-1dec-478b-b373-17b05fae19e4, cipher: auto, tls: true, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_3a33", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_7328", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_be4f", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_5110", type: vless, server: www.usyun.cc, port: 443, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_d93d", type: ss, server: 72.244.91.170, port: 20001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_2d68", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_4750", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_f456", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_dfc6", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_1329", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_7c7f", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_2468", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_0d19", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_54b4", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_af96", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_24f4", type: vless, server: 83.229.127.168, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_34f9", type: vless, server: w1.lianjieni.com, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_5eff", type: vless, server: w2.lianjieni.com, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_758f", type: vless, server: w3.lianjieni.com, port: 443, udp: true }
-  - { name: "🌐 未知国家 订阅节点聚合器_e592", type: vless, server: w4.lianjieni.com, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_380b", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_f18b", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_a965", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_9700", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_7e17", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_2606", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_58c6", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_c752", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_1b8b", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_5320", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_116e", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_a479", type: vless, server: www.usyun.cc, port: 443, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_523d", type: ss, server: 72.244.91.170, port: 20001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_6f57", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_b3e3", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_683c", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_c529", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_d3fc", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_69c2", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_dca7", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_89e5", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_2e87", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_2dec", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_553d", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_cd7c", type: vless, server: 83.229.127.168, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_794d", type: vless, server: w1.lianjieni.com, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_2d5e", type: vless, server: w2.lianjieni.com, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_d5fb", type: vless, server: w3.lianjieni.com, port: 443, udp: true }
+  - { name: "🌐 未知国家 订阅节点聚合器_f1a0", type: vless, server: w4.lianjieni.com, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_5c8b", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_408d", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_d8b3", type: vmess, server: expired.example.com, port: 80, uuid: a6736092-ad7d-4048-be42-5a576c3b18c7, cipher: auto, tls: false, udp: true }
+  - { name: "🌐 未知地区 订阅节点聚合器_7012", type: vmess, server: expired.example.com, port: 80, uuid: a6736092-ad7d-4048-be42-5a576c3b18c7, cipher: auto, tls: false, udp: true }
+  - { name: "🇲🇾 马来西亚 订阅节点聚合器_07d4", type: vless, server: lbb-sanwang-youhua.lbbzz.com, port: 23801, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_ad41", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_2ab5", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_1d6e", type: vless, server: www.usyun.cc, port: 443, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_1b18", type: vless, server: 83.229.127.168, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_2596", type: vless, server: w1.lianjieni.com, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_7d11", type: vless, server: w2.lianjieni.com, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_f7be", type: vless, server: w3.lianjieni.com, port: 443, udp: true }
   - { name: "🌐 未知国家 订阅节点聚合器_69a5", type: vless, server: w4.lianjieni.com, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_c78d", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_3a33", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_d250", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_3cd4", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_1b8b", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_856f", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_79f3", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_86cc", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_3374", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_01fd", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_4569", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_b9ec", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_42fe", type: vless, server: www.usyun.cc, port: 443, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_da00", type: ss, server: 72.244.91.170, port: 20001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_d754", type: vless, server: 43.231.185.91, port: 4433, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_31a3", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_be4f", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_4c8b", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_25c5", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_03b5", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_f249", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_37c8", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_8b56", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_1957", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_ee34", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_a1fd", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_2606", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_5332", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_d309", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_cbd7", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_7cc9", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_1ec8", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_d154", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_9546", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_1ef3", type: vless, server: www.usyun.cc, port: 443, udp: true }
   - { name: "🇺🇸 美国 订阅节点聚合器_8689", type: ss, server: 72.244.91.170, port: 20001, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_9481", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_4d7c", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_9f9b", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_5c5c", type: vless, server: 43.231.185.91, port: 4433, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_d1e5", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_4569", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_b9ec", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_0cfd", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_cb62", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_c317", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_0727", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_2468", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_ce8f", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_21da", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_b3e3", type: vless, server: www.usyun.cc, port: 443, udp: true }
   - { name: "🇭🇰 香港 订阅节点聚合器_0cb5", type: vless, server: 16.162.193.6, port: 443, udp: true }
   - { name: "🇨🇳 中国 订阅节点聚合器_d84a", type: vless, server: 47.110.53.179, port: 59443, udp: true }
   - { name: "🇨🇳 中国 订阅节点聚合器_9839", type: vless, server: 113.47.161.119, port: 59443, udp: true }
   - { name: "🇨🇳 中国 订阅节点聚合器_ef5c", type: vless, server: 110.41.170.178, port: 59443, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_0727", type: vless, server: www.usyun.cc, port: 443, udp: true }
-  - { name: "🇺🇸 美国 订阅节点聚合器_d693", type: ss, server: 72.244.91.170, port: 20001, udp: true }
-  - { name: "🇭🇰 香港 订阅节点聚合器_8520", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_240a", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_1043", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_57dd", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_8be2", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_c085", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_433d", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_43aa", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_ca9c", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_c4e1", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_6cac", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_73a9", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_9f9b", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_5c5c", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_195b", type: ss, server: 72.244.91.170, port: 20001, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_3c26", type: vless, server: 43.231.185.91, port: 4433, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_9fcf", type: vless, server: kr-b.bnsss.cc, port: 8080, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_3be7", type: vless, server: kr-a.bnsss.cc, port: 8086, udp: true }
+  - { name: "🇰🇷 韩国 订阅节点聚合器_f32e", type: vless, server: kr-c.bnsss.cc, port: 8087, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_b7c7", type: vless, server: us-a.bnsss.cc, port: 8088, udp: true }
+  - { name: "🇺🇸 美国 订阅节点聚合器_de47", type: vless, server: 207.57.128.27, port: 8081, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_4ea7", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_f75b", type: vless, server: www.usyun.cc, port: 443, udp: true }
+  - { name: "🇭🇰 香港 订阅节点聚合器_ef99", type: vless, server: www.usyun.cc, port: 443, udp: true }
